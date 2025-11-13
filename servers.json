@@ -1,0 +1,26 @@
+{
+  "Russia1": {
+    "ip": "94.232.44.135",
+    "iperf_port": 5201
+  },
+  "Russia2": {
+    "ip": "5.6.7.8",
+    "iperf_port": 5201
+  },
+  "Netherlands": {
+    "ip": "94.177.51.27",
+    "iperf_port": 5201
+  },
+  "Finland": {
+    "ip": "31.57.61.224",
+    "iperf_port": 5201
+  },
+  "Germany": {
+    "ip": "45.148.117.117",
+    "iperf_port": 5201
+  },
+  "Japan": {
+    "ip": "21.22.23.24",
+    "iperf_port": 5201
+  }
+}
