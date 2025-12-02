@@ -1,18 +1,18 @@
 {
-  "log": { "level": "info", "timestamp": true },
+  "log": { "level": "error", "timestamp": true },
   "dns": {
     "servers": [
-      { "tag": "google-doh", "address": "https://8.8.8.8/dns-query", "detour": "proxy" },
-      { "tag": "local-dns", "address": "local", "detour": "direct" }
+      { "tag": "google", "address": "tcp://8.8.8.8", "detour": "proxy" },
+      { "tag": "local", "address": "local", "detour": "direct" }
     ],
-    "rules": [ { "outbound": "any", "server": "local-dns" } ],
-    "final": "google-doh",
+    "rules": [ { "outbound": "any", "server": "local" } ],
+    "final": "google",
     "strategy": "ipv4_only"
   },
   "inbounds": [
     {
       "type": "tun", "tag": "tun-in", "interface_name": "PlayNow-VPN",
-      "inet4_address": "172.19.0.1/30", "mtu": 9000, "auto_route": true, "strict_route": false,
+      "inet4_address": "172.19.0.1/30", "mtu": 9000, "auto_route": true, "strict_route": true,
       "stack": "system", "sniff": true
     },
     { "type": "mixed", "tag": "mixed-in", "listen": "127.0.0.1", "listen_port": 10809 }
