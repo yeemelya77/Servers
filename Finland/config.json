@@ -34,7 +34,7 @@
     {
       "type": "vless",
       "tag": "proxy",
-      "server": "cvetoshkabot24germany.ru",
+      "server": "cvetoshkabot24usa.ru",
       "server_port": 443,
       "uuid": "ITA",
       "flow": "xtls-rprx-vision",
@@ -44,12 +44,12 @@
         "server_name": "teamdocs.su",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "0EqOzViZ-Hw0RNdlwmiTMR93RRa5CmPFwy1y7_LaqFw",
-          "short_id": "93640ad7"
+          "public_key": "zbqTiiV7Nri0z6C-Yy_w98E6SM2B37EiXVrMSFdmAAY",
+          "short_id": "dbb4089dcfc6df5f"
         }
       }
     },
