@@ -1,30 +1,73 @@
 {
-    "bean": {
-        "_v": 0,
-        "addr": "cvetoshkabot24usa.ru",
-        "flow": "xtls-rprx-vision",
-        "name": "Finland-ITA",
-        "pass": "ITA",
-        "port": 443,
-        "stream": {
-            "ed_len": 0,
-            "insecure": false,
-            "mux_s": 0,
-            "net": "tcp",
-            "pbk": "zbqTiiV7Nri0z6C-Yy_w98E6SM2B37EiXVrMSFdmAAY",
-            "sec": "tls",
-            "sid": "dbb4089dcfc6df5f",
-            "sni": "teamdocs.su",
-            "spx": "/",
-            "utls": "firefox"
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {"tag": "google", "address": "8.8.8.8", "detour": "proxy"},
+      {"tag": "local", "address": "local", "detour": "direct"}
+    ],
+    "rules": [
+      {"outbound": "any", "server": "local"}
+    ]
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "interface_name": "PlayNow-VPN",
+      "inet4_address": "172.19.0.1/30",
+      "auto_route": true,
+      "strict_route": true,
+      "stack": "system",
+      "sniff": true
+    },
+    {
+      "type": "mixed",
+      "tag": "http-in",
+      "listen": "127.0.0.1",
+      "listen_port": 10809
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "proxy",
+      "server": "cvetoshkabot24germany.ru",
+      "server_port": 443,
+      "uuid": "ITA",
+      "flow": "xtls-rprx-vision",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "teamdocs.su",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0EqOzViZ-Hw0RNdlwmiTMR93RRa5CmPFwy1y7_LaqFw",
+          "short_id": "93640ad7"
         }
+      }
     },
-    "gid": 0,
-    "id": 0,
-    "traffic": {
-        "dl": 0,
-        "ul": 0
+    {
+      "type": "direct",
+      "tag": "direct"
     },
-    "type": "vless",
-    "yc": 0
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
+  ],
+  "route": {
+    "rules": [
+      {"protocol": "dns", "outbound": "dns-out"},
+      {"inbound": "http-in", "outbound": "proxy"},
+      {"inbound": "tun-in", "outbound": "proxy"}
+    ],
+    "auto_detect_interface": true
+  }
 }
