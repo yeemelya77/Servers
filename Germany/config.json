@@ -1,94 +1,42 @@
 {
-  "log": {
-    "level": "info",
-    "timestamp": true
-  },
+  "log": { "level": "info", "timestamp": true },
   "dns": {
     "servers": [
-      {
-        "tag": "google",
-        "address": "8.8.8.8",
-        "detour": "proxy"
-      },
-      {
-        "tag": "local",
-        "address": "local",
-        "detour": "direct"
-      }
+      { "tag": "google-doh", "address": "https://8.8.8.8/dns-query", "detour": "proxy" },
+      { "tag": "local-dns", "address": "local", "detour": "direct" }
     ],
-    "rules": [
-      {
-        "outbound": "any",
-        "server": "local"
-      }
-    ],
-    "final": "local"
+    "rules": [ { "outbound": "any", "server": "local-dns" } ],
+    "final": "google-doh",
+    "strategy": "ipv4_only"
   },
   "inbounds": [
     {
-      "type": "tun",
-      "tag": "tun-in",
-      "interface_name": "PlayNow-VPN",
-      "inet4_address": "172.19.0.1/30",
-      "auto_route": true,
-      "strict_route": true,
-      "stack": "system",
-      "sniff": true
+      "type": "tun", "tag": "tun-in", "interface_name": "PlayNow-VPN",
+      "inet4_address": "172.19.0.1/30", "mtu": 9000, "auto_route": true, "strict_route": false,
+      "stack": "system", "sniff": true
     },
-    {
-      "type": "mixed",
-      "tag": "http-in",
-      "listen": "127.0.0.1",
-      "listen_port": 10809
-    }
+    { "type": "mixed", "tag": "mixed-in", "listen": "127.0.0.1", "listen_port": 10809 }
   ],
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "proxy",
-      "server": "cvetoshkabot24germany.ru",
-      "server_port": 443,
-      "uuid": "ITA",
-      "flow": "xtls-rprx-vision",
-      "packet_encoding": "xudp",
+      "type": "vless", "tag": "proxy", "server": "cvetoshkabot24germany.ru", "server_port": 443,
+      "uuid": "ITA", "flow": "xtls-rprx-vision", "packet_encoding": "xudp",
       "tls": {
-        "enabled": true,
-        "server_name": "teamdocs.su",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0EqOzViZ-Hw0RNdlwmiTMR93RRa5CmPFwy1y7_LaqFw",
-          "short_id": "93640ad7"
-        }
+        "enabled": true, "server_name": "teamdocs.su",
+        "utls": { "enabled": true, "fingerprint": "chrome" },
+        "reality": { "enabled": true, "public_key": "0EqOzViZ-Hw0RNdlwmiTMR93RRa5CmPFwy1y7_LaqFw", "short_id": "93640ad7" }
       }
     },
-    {
-      "type": "direct",
-      "tag": "direct"
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    }
+    { "type": "direct", "tag": "direct" },
+    { "type": "dns", "tag": "dns-out" }
   ],
   "route": {
     "rules": [
-      {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "inbound": "http-in",
-        "outbound": "proxy"
-      },
-      {
-        "inbound": "tun-in",
-        "outbound": "proxy"
-      }
+      { "protocol": "dns", "outbound": "dns-out" },
+      { "inbound": "mixed-in", "outbound": "proxy" },
+      { "inbound": "tun-in", "outbound": "proxy" }
     ],
-    "auto_detect_interface": true
+    "auto_detect_interface": true,
+    "final": "proxy"
   }
 }
