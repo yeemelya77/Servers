@@ -1,0 +1,42 @@
+{
+  "log": { "level": "info", "timestamp": true },
+  "dns": {
+    "servers": [
+      { "tag": "google-doh", "address": "https://8.8.8.8/dns-query", "detour": "proxy" },
+      { "tag": "local-dns", "address": "local", "detour": "direct" }
+    ],
+    "rules": [ { "outbound": "any", "server": "local-dns" } ],
+    "final": "google-doh",
+    "strategy": "ipv4_only"
+  },
+  "inbounds": [
+    {
+      "type": "tun", "tag": "tun-in", "interface_name": "PlayNow-VPN",
+      "inet4_address": "172.19.0.1/30", "mtu": 9000, "auto_route": true, "strict_route": false,
+      "stack": "system", "sniff": true
+    },
+    { "type": "mixed", "tag": "mixed-in", "listen": "127.0.0.1", "listen_port": 10809 }
+  ],
+  "outbounds": [
+    {
+      "type": "vless", "tag": "proxy", "server": "94.232.44.135", "server_port": 443,
+      "uuid": "ITA", "flow": "xtls-rprx-vision", "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true, "server_name": "rutube.ru",
+        "utls": { "enabled": true, "fingerprint": "firefox" },
+        "reality": { "enabled": true, "public_key": "G4QXrp5PMLFTRa09QiATzfDIhy0nUMvItMcQb2Kt2Qo", "short_id": "c488e01b82c6fd" }
+      }
+    },
+    { "type": "direct", "tag": "direct" },
+    { "type": "dns", "tag": "dns-out" }
+  ],
+  "route": {
+    "rules": [
+      { "protocol": "dns", "outbound": "dns-out" },
+      { "inbound": "mixed-in", "outbound": "proxy" },
+      { "inbound": "tun-in", "outbound": "proxy" }
+    ],
+    "auto_detect_interface": true,
+    "final": "proxy"
+  }
+}
