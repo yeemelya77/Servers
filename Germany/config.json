@@ -5,12 +5,24 @@
   },
   "dns": {
     "servers": [
-      {"tag": "google", "address": "8.8.8.8", "detour": "proxy"},
-      {"tag": "local", "address": "local", "detour": "direct"}
+      {
+        "tag": "google",
+        "address": "8.8.8.8",
+        "detour": "proxy"
+      },
+      {
+        "tag": "local",
+        "address": "local",
+        "detour": "direct"
+      }
     ],
     "rules": [
-      {"outbound": "any", "server": "local"}
-    ]
+      {
+        "outbound": "any",
+        "server": "local"
+      }
+    ],
+    "final": "local"
   },
   "inbounds": [
     {
@@ -64,9 +76,18 @@
   ],
   "route": {
     "rules": [
-      {"protocol": "dns", "outbound": "dns-out"},
-      {"inbound": "http-in", "outbound": "proxy"},
-      {"inbound": "tun-in", "outbound": "proxy"}
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "inbound": "http-in",
+        "outbound": "proxy"
+      },
+      {
+        "inbound": "tun-in",
+        "outbound": "proxy"
+      }
     ],
     "auto_detect_interface": true
   }
