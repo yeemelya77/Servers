@@ -1,0 +1,30 @@
+{
+    "bean": {
+        "_v": 0,
+        "addr": "cvetoshkabot24germany.ru",
+        "flow": "xtls-rprx-vision",
+        "name": "vless-ITA",
+        "pass": "ITA",
+        "port": 443,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp",
+            "pbk": "0EqOzViZ-Hw0RNdlwmiTMR93RRa5CmPFwy1y7_LaqFw",
+            "sec": "tls",
+            "sid": "93640ad7",
+            "sni": "teamdocs.su",
+            "spx": "/",
+            "utls": "chrome"
+        }
+    },
+    "gid": 0,
+    "id": 0,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vless",
+    "yc": 0
+}
