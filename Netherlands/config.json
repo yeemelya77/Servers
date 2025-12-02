@@ -1,0 +1,42 @@
+{
+  "log": { "level": "info", "timestamp": true },
+  "dns": {
+    "servers": [
+      { "tag": "google-doh", "address": "https://8.8.8.8/dns-query", "detour": "proxy" },
+      { "tag": "local-dns", "address": "local", "detour": "direct" }
+    ],
+    "rules": [ { "outbound": "any", "server": "local-dns" } ],
+    "final": "google-doh",
+    "strategy": "ipv4_only"
+  },
+  "inbounds": [
+    {
+      "type": "tun", "tag": "tun-in", "interface_name": "PlayNow-VPN",
+      "inet4_address": "172.19.0.1/30", "mtu": 9000, "auto_route": true, "strict_route": false,
+      "stack": "system", "sniff": true
+    },
+    { "type": "mixed", "tag": "mixed-in", "listen": "127.0.0.1", "listen_port": 10809 }
+  ],
+  "outbounds": [
+    {
+      "type": "vless", "tag": "proxy", "server": "cvetoshkabot24.ru", "server_port": 443,
+      "uuid": "ITA", "flow": "xtls-rprx-vision", "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true, "server_name": "google.com",
+        "utls": { "enabled": true, "fingerprint": "firefox" },
+        "reality": { "enabled": true, "public_key": "SAN7_MFCKRJiQ74Il80-RUVtB9gXCDa4Y4Lu4TiPS2A", "short_id": "0c" }
+      }
+    },
+    { "type": "direct", "tag": "direct" },
+    { "type": "dns", "tag": "dns-out" }
+  ],
+  "route": {
+    "rules": [
+      { "protocol": "dns", "outbound": "dns-out" },
+      { "inbound": "mixed-in", "outbound": "proxy" },
+      { "inbound": "tun-in", "outbound": "proxy" }
+    ],
+    "auto_detect_interface": true,
+    "final": "proxy"
+  }
+}
