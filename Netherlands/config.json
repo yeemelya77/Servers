@@ -1,42 +1,92 @@
 {
-  "log": { "level": "error", "timestamp": true },
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
   "dns": {
     "servers": [
-      { "tag": "google", "address": "tcp://8.8.8.8", "detour": "proxy" },
-      { "tag": "local", "address": "local", "detour": "direct" }
+      {
+        "tag": "google",
+        "address": "8.8.8.8",
+        "detour": "proxy"
+      },
+      {
+        "tag": "local",
+        "address": "local",
+        "detour": "direct"
+      }
     ],
-    "rules": [ { "outbound": "any", "server": "local" } ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "google"
+      }
+    ],
     "final": "google",
     "strategy": "ipv4_only"
   },
   "inbounds": [
     {
-      "type": "tun", "tag": "tun-in", "interface_name": "PlayNow-VPN",
-      "inet4_address": "172.19.0.1/30", "mtu": 9000, "auto_route": true, "strict_route": true,
-      "stack": "system", "sniff": true
-    },
-    { "type": "mixed", "tag": "mixed-in", "listen": "127.0.0.1", "listen_port": 10809 }
+      "type": "tun",
+      "tag": "tun-in",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "mtu": 1400,
+      "auto_route": true,
+      "strict_route": true,
+      "stack": "gvisor",
+      "sniff": true,
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 2080
+        }
+      }
+    }
   ],
   "outbounds": [
     {
-      "type": "vless", "tag": "proxy", "server": "nl-3.atlanta-internet.ru", "server_port": 8443,
-      "uuid": "669be00c-67b4-4b87-b08f-311c45abced2",
+      "type": "vless",
+      "tag": "proxy",
+      "server": "94.177.51.27",
+      "server_port": 443,
+      "uuid": "ITA",
       "flow": "xtls-rprx-vision",
       "packet_encoding": "xudp",
       "tls": {
-        "enabled": true, "server_name": "pingless.com",
-        "utls": { "enabled": true, "fingerprint": "chrome" },
-        "reality": { "enabled": true, "public_key": "FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI", "short_id": "" }
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SAN7_MFCKRJiQ74Il80-RUVtB9gXCDa4Y4Lu4TiPS2A",
+          "short_id": "0c"
+        }
       }
     },
-    { "type": "direct", "tag": "direct" },
-    { "type": "dns", "tag": "dns-out" }
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
   ],
   "route": {
     "rules": [
-      { "protocol": "dns", "outbound": "dns-out" },
-      { "inbound": "mixed-in", "outbound": "proxy" },
-      { "inbound": "tun-in", "outbound": "proxy" }
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      }
     ],
     "auto_detect_interface": true,
     "final": "proxy"
