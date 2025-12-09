@@ -33,16 +33,16 @@
       "inet4_address": "172.19.0.1/30",
       "mtu": 1400,
       "auto_route": true,
-      "strict_route": false,
-      "stack": "system",
-      "sniff": true
-    },
-    {
-      "type": "mixed",
-      "tag": "mixed-in",
-      "listen": "127.0.0.1",
-      "listen_port": 10809,
-      "sniff": true
+      "strict_route": true,
+      "stack": "gvisor",
+      "sniff": true,
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 2080
+        }
+      }
     }
   ],
   "outbounds": [
@@ -84,24 +84,11 @@
         "outbound": "dns-out"
       },
       {
-        "domain": [
-          "cvetoshkabot24lat.ru"
-        ],
-        "outbound": "direct"
-      },
-      {
         "ip_is_private": true,
         "outbound": "direct"
-      },
-      {
-        "process_name": [
-          "Telegram.exe",
-          "TelegramDesktop.exe"
-        ],
-        "outbound": "proxy"
       }
     ],
     "auto_detect_interface": true,
-    "final": "direct"
+    "final": "proxy"
   }
 }
