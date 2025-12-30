@@ -56,15 +56,15 @@
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.ut.ee",
+        "server_name": "ut.ee",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "IF5rSg7Y2CafJKqF3PCLlUisuUQsHPXqvL0OTj2BNTE",
-          "short_id": "78"
+          "public_key": "zS-MoCPdWzyflaWiSWr520Qrw-tstEZsUvCHYB_E2i4",
+          "short_id": "88002979"
         }
       }
     },
