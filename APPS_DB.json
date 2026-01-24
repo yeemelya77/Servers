@@ -1,10 +1,11 @@
+{
     "fc24": ["FC24.exe", "FIFA23.exe", "EAAntiCheat.GameService.exe", "EAAntiCheat.GameServiceLauncher.exe"],
     "efootball": ["eFootball.exe", "eFootball-Win64-Shipping.exe", "settings.exe"],
     "tekken8": ["Tekken8.exe", "Polaris-Win64-Shipping.exe"],
-    "mk1": ["MK12.exe", "MK1.exe"], 
+    "mk1": ["MK12.exe", "MK1.exe"],
     "sf6": ["StreetFighter6.exe"],
     "dbd": ["DeadByDaylight.exe", "DeadByDaylight-Win64-Shipping.exe", "EADesktop.exe"],
-    "broken_arrow": ["BrokenArrow.exe", "BrokenArrow_Shipping.exe", "Obelix.exe"], 
+    "broken_arrow": ["BrokenArrow.exe", "BrokenArrow_Shipping.exe", "Obelix.exe"],
     "battlefield": ["bf.exe", "bf2042.exe", "bfv.exe", "bf1.exe", "bf4.exe", "Battlefield.exe", "BF2042.exe", "BF2042_launcher.exe", "EADesktop.exe", "EA Background.exe"],
     "arena_breakout": ["ArenaBreakoutInfinite.exe", "ABInfinite.exe", "UACE_Client.exe"],
     "delta_force": ["DeltaForce.exe", "DeltaForceClient-Win64-Shipping.exe"],
@@ -18,7 +19,7 @@
     "valorant": ["VALORANT-Win64-Shipping.exe", "RiotClientServices.exe", "RiotClientUx.exe", "vgtray.exe", "vgc.exe"],
     "siege": ["RainbowSix.exe", "RainbowSix_BE.exe", "upc.exe", "UplayWebCore.exe", "UbisoftGameLauncher.exe", "BEService.exe"],
     "overwatch": ["Overwatch.exe", "Battle.net.exe"],
-    "warface": ["Game.exe", "MyComGames.exe", "Hg64.exe", "MRAC.exe"],
+    "warface": ["Game.exe", "MyComGames.exe", "HG64.exe", "MRAC.exe"],
     "tarkov": ["EscapeFromTarkov.exe", "EscapeFromTarkov_BE.exe", "BsgLauncher.exe", "BEService.exe"],
     "rust": ["RustClient.exe", "steam.exe", "EasyAntiCheat.exe"],
     "dayz": ["DayZ_x64.exe", "DayZLauncher.exe", "DZSALauncher.exe", "BEService.exe"],
@@ -48,17 +49,11 @@
     "4game": ["4game-service.exe", "FROST.exe"],
     "gamecenter": ["GameCenter.exe", "MyComGames.exe"],
     "discord": ["Discord.exe", "Update.exe", "discord_voice.exe"],
-    "roblox": ["RobloxPlayerBeta.exe", "RobloxStudioBeta.exe", "RobloxPlayerLauncher.exe"],
+    "roblox": ["RobloxPlayerBeta.exe", "RobloxStudioBeta.exe", "RobloxPlayerLauncher.exe", "RobloxPlayerInstaller.exe", "RobloxBootstrapper.exe"],
     "chrome": ["chrome.exe", "chrome_proxy.exe", "installer.exe"],
     "yandex_browser": ["browser.exe", "yandex.exe", "yandex_browser.exe"],
     "firefox": ["firefox.exe"],
     "edge": ["msedge.exe", "msedge_proxy.exe"],
-    "repo": ["REPO.exe", "R.E.P.O.exe", "RepoClient.exe", "UnityCrashHandler64.exe"], 
-    "roblox": [
-        "RobloxPlayerBeta.exe", 
-        "RobloxStudioBeta.exe", 
-        "RobloxPlayerLauncher.exe", 
-        "RobloxPlayerInstaller.exe", 
-        "RobloxBootstrapper.exe"
-    ],
-    "services_cdn": [] 
+    "repo": ["REPO.exe", "R.E.P.O.exe", "RepoClient.exe", "UnityCrashHandler64.exe"],
+    "services_cdn": []
+}
