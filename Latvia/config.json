@@ -31,7 +31,7 @@
       "tag": "tun-in",
       "interface_name": "tun0",
       "inet4_address": "172.19.0.1/30",
-      "mtu": 1400,
+      "mtu": 1280,
       "auto_route": true,
       "strict_route": true,
       "stack": "gvisor",
@@ -56,14 +56,14 @@
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.tesla.com",
+        "server_name": "www.icloud.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "0lkHxnnOGcCTyQfekFJQh9UA-FNaPHwQ7Z6v1LU77zo",
+          "public_key": "DwogPlDwgoxbbYhD-QmT6YB3rsgnk_x-0v123odY0kw",
           "short_id": "ffca2b866a"
         }
       }
