@@ -50,7 +50,7 @@
       "type": "vless",
       "tag": "proxy",
       "server": "cvetoshkabot24lat.ru",
-      "server_port": 443,
+      "server_port": 8443,
       "uuid": "ITA",
       "flow": "xtls-rprx-vision",
       "packet_encoding": "xudp",
@@ -63,7 +63,7 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "AcdBb2p4J2-NGKVI4vkDPY7a3sv5-WO5hTKnBvzJBwY",
+          "public_key": "NN2CCT6bYLaMJ1ns8kXvF1qSonfwvbuhWiU4VdwPzxk",
           "short_id": "ffca2b866a"
         }
       }
