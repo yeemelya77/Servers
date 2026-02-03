@@ -31,7 +31,7 @@
       "tag": "tun-in",
       "interface_name": "tun0",
       "inet4_address": "172.19.0.1/30",
-      "mtu": 1280,
+      "mtu": 1400,
       "auto_route": true,
       "strict_route": true,
       "stack": "gvisor",
@@ -56,14 +56,14 @@
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.icloud.com",
+        "server_name": "finance.mail.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "DwogPlDwgoxbbYhD-QmT6YB3rsgnk_x-0v123odY0kw",
+          "public_key": "AcdBb2p4J2-NGKVI4vkDPY7a3sv5-WO5hTKnBvzJBwY",
           "short_id": "ffca2b866a"
         }
       }
