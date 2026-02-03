@@ -50,7 +50,7 @@
       "type": "vless",
       "tag": "proxy",
       "server": "cvetoshkabot24lat.ru",
-      "server_port": 8443,
+      "server_port": 443,
       "uuid": "ITA",
       "flow": "xtls-rprx-vision",
       "packet_encoding": "xudp",
