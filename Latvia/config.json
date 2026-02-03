@@ -56,15 +56,15 @@
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.nvidia.com",
+        "server_name": "www.tesla.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "XJ3T56vDwusTqx_NCQvG2WDA8K20Bd4LC2LokHcd4DY",
-          "short_id": "1c109d672d8639"
+          "public_key": "0lkHxnnOGcCTyQfekFJQh9UA-FNaPHwQ7Z6v1LU77zo",
+          "short_id": "ffca2b866a"
         }
       }
     },
