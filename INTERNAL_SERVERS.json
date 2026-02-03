@@ -4,7 +4,7 @@
     "Netherlands": { "ip": "94.177.51.27", "iperf_port": 5201 },
     "Finland": { "ip": "31.57.61.224", "iperf_port": 5201 },
     "Germany": { "ip": "45.148.117.117", "iperf_port": 5201 },
+    "Armenia": { "ip": "87.121.47.184", "iperf_port": 5201 },
     "Estonia": { "ip": "93.123.39.199", "iperf_port": 5201 },
-    "Latvia": { "ip": "31.57.157.172", "iperf_port": 5201 },
-    "Armenia": { "ip": "87.121.47.184", "iperf_port": 5201 }
+    "Latvia": { "ip": "31.57.157.172", "iperf_port": 5201 }
 }
