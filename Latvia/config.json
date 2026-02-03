@@ -50,21 +50,21 @@
       "type": "vless",
       "tag": "proxy",
       "server": "cvetoshkabot24lat.ru",
-      "server_port": 443,
+      "server_port": 2053,
       "uuid": "ITA",
       "flow": "xtls-rprx-vision",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.delfi.lv",
+        "server_name": "www.nvidia.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "UIroNjH2a7ecQOtp8-flokyKQAxNuTaFR1IL0sRGvxE",
-          "short_id": "4caa3e87a76120"
+          "public_key": "XJ3T56vDwusTqx_NCQvG2WDA8K20Bd4LC2LokHcd4DY",
+          "short_id": "1c109d672d8639"
         }
       }
     },
