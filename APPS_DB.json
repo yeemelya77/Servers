@@ -13,7 +13,7 @@
     "the_finals": ["Discovery.exe", "Discovery_BE.exe", "steam.exe"],
     "apex": ["r5apex.exe", "r5apex_dx12.exe", "EasyAntiCheat.exe", "EasyAntiCheat_EOS.exe", "Link2EA.exe", "EADesktop.exe"],
     "cs2": ["cs2.exe", "steam.exe", "steamwebhelper.exe"],
-    "pubg": ["TslGame.exe", "ExecPubg.exe", "TslGame_BE.exe", "TslGame_UC.exe", "Zakynthos.exe", "BEService.exe"],
+    "pubg": ["TslGame.exe", "ExecPubg.exe", "TslGame_BE.exe", "TslGame_UC.exe", "Zakynthos.exe", "BEService.exe", "TslGame_UC_x64.exe", "TslGame_x64.exe", "VivoxVoiceService.exe"],
     "cod": ["cod.exe", "ModernWarfare.exe", "BlackOpsColdWar.exe", "sp23-cod.exe", "mp23-cod.exe", "bootstrapper.exe", "Battle.net.exe", "Randgrid.sys"],
     "fortnite": ["FortniteClient-Win64-Shipping.exe", "FortniteClient-Win64-Shipping_BE.exe", "FortniteLauncher.exe", "EpicGamesLauncher.exe", "BattlEye.exe"],
     "valorant": ["VALORANT-Win64-Shipping.exe", "RiotClientServices.exe", "RiotClientUx.exe", "vgtray.exe", "vgc.exe"],
