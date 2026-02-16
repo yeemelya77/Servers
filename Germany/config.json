@@ -50,22 +50,25 @@
       "type": "vless",
       "tag": "proxy",
       "server": "45.148.117.117",
-      "server_port": 443,
+      "server_port": 2052,
       "uuid": "ITA",
-      "flow": "xtls-rprx-vision",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "teamdocs.su",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "0EqOzViZ-Hw0RNdlwmiTMR93RRa5CmPFwy1y7_LaqFw",
-          "short_id": "93640ad7"
+          "public_key": "nkYQ1GC8SlvJzaLAwQyugrvO3aj2bb60eUuzEP3b4Tg",
+          "short_id": "ada6"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
       }
     },
     {
