@@ -49,20 +49,36 @@
     {
       "type": "vless",
       "tag": "proxy",
-      "server": "cvetoshkabot24lat.ru",
+      "server": "31.57.157.172",
       "server_port": 2052,
       "uuid": "ITA",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "www.oracle.com",
-        "utls": { "enabled": true, "fingerprint": "chrome" },
-        "reality": { "enabled": true, "public_key": "6tDv9mAOkwp0HnvztN0Fbd4KQeQx5Pkm-QY-TL9qYk4", "short_id": "8fa3b04576" }
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "6tDv9mAOkwp0HnvztN0Fbd4KQeQx5Pkm-QY-TL9qYk4",
+          "short_id": "8fa3b04576"
+        }
       },
-      "transport": { "type": "grpc", "service_name": "" }
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     },
-    { "type": "direct", "tag": "direct" },
-    { "type": "dns", "tag": "dns-out" }
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
   ],
   "route": {
     "rules": [
