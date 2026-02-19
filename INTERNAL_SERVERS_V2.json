@@ -1,0 +1,15 @@
+{
+    "Russia1": { "ip": "94.232.44.135", "iperf_port": 5201 },
+    "Russia2": { "ip": "94.232.44.135", "iperf_port": 5201 },
+    "Armenia": { "ip": "87.121.47.184", "iperf_port": 5201 },
+    "Netherlands-TCP": { "ip": "94.177.51.27", "iperf_port": 5201 },
+    "Netherlands-gRPC": { "ip": "94.177.51.27", "iperf_port": 5201 },
+    "Germany-TCP": { "ip": "45.148.117.117", "iperf_port": 5201 },
+    "Germany-gRPC": { "ip": "45.148.117.117", "iperf_port": 5201 },
+    "Finland-TCP": { "ip": "31.57.61.224", "iperf_port": 5201 },
+    "Finland-gRPC": { "ip": "31.57.61.224", "iperf_port": 5201 },
+    "Estonia-TCP": { "ip": "93.123.39.199", "iperf_port": 5201 },
+    "Estonia-gRPC": { "ip": "93.123.39.199", "iperf_port": 5201 },
+    "Latvia-TCP": { "ip": "31.57.157.172", "iperf_port": 5201 },
+    "Latvia-gRPC": { "ip": "31.57.157.172", "iperf_port": 5201 }
+}
