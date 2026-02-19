@@ -49,7 +49,7 @@
     {
       "type": "vless",
       "tag": "proxy",
-      "server": "93.123.39.199", 
+      "server": "cvetoshkabot24est.ru",
       "server_port": 443,
       "uuid": "ITA",
       "flow": "xtls-rprx-vision",
@@ -57,25 +57,12 @@
       "tls": {
         "enabled": true,
         "server_name": "updates.cdn-apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "AwZ_Qu0BV-INqpLj62OQkGZs5PmCJ5GkKSB8EBq9bR4",
-          "short_id": "88002979"
-        }
+        "utls": { "enabled": true, "fingerprint": "chrome" },
+        "reality": { "enabled": true, "public_key": "AwZ_Qu0BV-INqpLj62OQkGZs5PmCJ5GkKSB8EBq9bR4", "short_id": "88002979" }
       }
     },
-    {
-      "type": "direct",
-      "tag": "direct"
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    }
+    { "type": "direct", "tag": "direct" },
+    { "type": "dns", "tag": "dns-out" }
   ],
   "route": {
     "rules": [
