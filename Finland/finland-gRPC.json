@@ -49,9 +49,9 @@
     {
       "type": "vless",
       "tag": "proxy",
-      "server": "cvetoshkabot24usa.ru",
+      "server": "31.57.61.224",
       "server_port": 2052,
-      "uuid": "ITA",
+      "uuid": "ITA2,
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
