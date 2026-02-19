@@ -51,31 +51,18 @@
       "tag": "proxy",
       "server": "cvetoshkabot24germany.ru",
       "server_port": 8443,
-      "uuid": "ITA",
+      "uuid": "ITA2",
       "flow": "xtls-rprx-vision",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "www.amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "BcfpzmksEpTcZAn7ddbR3QZGHsRERQyTXHbc6GVIRCs",
-          "short_id": "178260da850f"
-        }
+        "utls": { "enabled": true, "fingerprint": "chrome" },
+        "reality": { "enabled": true, "public_key": "BcfpzmksEpTcZAn7ddbR3QZGHsRERQyTXHbc6GVIRCs", "short_id": "178260da850f" }
       }
     },
-    {
-      "type": "direct",
-      "tag": "direct"
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    }
+    { "type": "direct", "tag": "direct" },
+    { "type": "dns", "tag": "dns-out" }
   ],
   "route": {
     "rules": [
