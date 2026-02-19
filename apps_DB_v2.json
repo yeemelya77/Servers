@@ -57,7 +57,7 @@
   "the_finals": {
     "Name": "🔫 The Finals",
     "Category": "🔥 Топ Шутеры",
-    "Processes": ["Discovery.exe", "Discovery_BE.exe", "steam.exe"]
+    "Processes": ["Discovery.exe", "Discovery_BE.exe"]
   },
   "apex": {
     "Name": "🔫 Apex Legends",
@@ -67,7 +67,7 @@
   "cs2": {
     "Name": "🔫 Counter-Strike 2",
     "Category": "🔥 Топ Шутеры",
-    "Processes": ["cs2.exe", "steam.exe", "steamwebhelper.exe"]
+    "Processes": ["cs2.exe""]
   },
   "pubg": {
     "Name": "🔫 PUBG: Battlegrounds",
@@ -112,7 +112,7 @@
   "rust": {
     "Name": "💀 Rust",
     "Category": "💣 Новинки и Выживание",
-    "Processes": ["RustClient.exe", "steam.exe", "EasyAntiCheat.exe"]
+    "Processes": ["RustClient.exe"]
   },
   "dayz": {
     "Name": "💀 DayZ",
@@ -127,7 +127,7 @@
   "dota2": {
     "Name": "⚔️ Dota 2",
     "Category": "⚔️ MOBA и Стратегии",
-    "Processes": ["dota2.exe", "steam.exe"]
+    "Processes": ["dota2.exe"]
   },
   "league": {
     "Name": "⚔️ League of Legends",
