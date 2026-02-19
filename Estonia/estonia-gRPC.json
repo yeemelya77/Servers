@@ -49,20 +49,36 @@
     {
       "type": "vless",
       "tag": "proxy",
-      "server": "cvetoshkabot24est.ru",
+      "server": "93.123.39.199",
       "server_port": 2042,
       "uuid": "ITA2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "www.icloud.com",
-        "utls": { "enabled": true, "fingerprint": "chrome" },
-        "reality": { "enabled": true, "public_key": "HNjzSzj2AKFv16A6nQwG2z8a33PphoB6HxTryrImZgA", "short_id": "e026f3d8" }
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HNjzSzj2AKFv16A6nQwG2z8a33PphoB6HxTryrImZgA",
+          "short_id": "e026f3d8"
+        }
       },
-      "transport": { "type": "grpc", "service_name": "" }
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     },
-    { "type": "direct", "tag": "direct" },
-    { "type": "dns", "tag": "dns-out" }
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
   ],
   "route": {
     "rules": [
