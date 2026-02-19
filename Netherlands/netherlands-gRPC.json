@@ -45,24 +45,40 @@
       }
     }
   ],
- "outbounds": [
+  "outbounds": [
     {
       "type": "vless",
       "tag": "proxy",
-      "server": "cvetoshkabot24.ru",
+      "server": "94.177.51.27",
       "server_port": 2052,
       "uuid": "ITA2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "www.amazon.com",
-        "utls": { "enabled": true, "fingerprint": "chrome" },
-        "reality": { "enabled": true, "public_key": "rb5KoWJ8WEETM2-aHlxACmjn1S5ygRtC_JBPMEwMJF0", "short_id": "f1" }
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "rb5KoWJ8WEETM2-aHlxACmjn1S5ygRtC_JBPMEwMJF0",
+          "short_id": "f1"
+        }
       },
-      "transport": { "type": "grpc", "service_name": "" }
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     },
-    { "type": "direct", "tag": "direct" },
-    { "type": "dns", "tag": "dns-out" }
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
   ],
   "route": {
     "rules": [
