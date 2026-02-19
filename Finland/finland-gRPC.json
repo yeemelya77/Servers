@@ -51,7 +51,7 @@
       "tag": "proxy",
       "server": "31.57.61.224",
       "server_port": 2052,
-      "uuid": "ITA2,
+      "uuid": "ITA2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
