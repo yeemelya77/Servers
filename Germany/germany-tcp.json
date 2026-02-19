@@ -67,12 +67,6 @@
           "short_id": "178260da850f"
         }
       }
-    }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
     },
     {
       "type": "direct",
