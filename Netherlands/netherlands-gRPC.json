@@ -70,7 +70,6 @@
         "type": "grpc",
         "service_name": ""
       }
-    }
     },
     {
       "type": "direct",
