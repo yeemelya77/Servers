@@ -49,20 +49,36 @@
     {
       "type": "vless",
       "tag": "proxy",
-      "server": "cvetoshkabot24germany.ru",
+      "server": "45.148.117.117",
       "server_port": 2052,
       "uuid": "ITA",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "www.amd.com",
-        "utls": { "enabled": true, "fingerprint": "chrome" },
-        "reality": { "enabled": true, "public_key": "nkYQ1GC8SlvJzaLAwQyugrvO3aj2bb60eUuzEP3b4Tg", "short_id": "ada6" }
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "nkYQ1GC8SlvJzaLAwQyugrvO3aj2bb60eUuzEP3b4Tg",
+          "short_id": "ada6"
+        }
       },
-      "transport": { "type": "grpc", "service_name": "" }
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     },
-    { "type": "direct", "tag": "direct" },
-    { "type": "dns", "tag": "dns-out" }
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
   ],
   "route": {
     "rules": [
