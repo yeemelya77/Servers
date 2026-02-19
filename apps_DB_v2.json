@@ -67,7 +67,7 @@
   "cs2": {
     "Name": "🔫 Counter-Strike 2",
     "Category": "🔥 Топ Шутеры",
-    "Processes": ["cs2.exe""]
+    "Processes": ["cs2.exe"]
   },
   "pubg": {
     "Name": "🔫 PUBG: Battlegrounds",
