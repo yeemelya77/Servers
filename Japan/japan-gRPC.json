@@ -55,14 +55,14 @@
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.nintendo.co.jp",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "RIVjnsvuF-OUcpttkNDadl34CjOdljJBZEFKg7Hi9wQ",
+          "public_key": "-jRQy9yP9bWm5MFSWdr_MaxOUrMv6G5w57eJXH_aUCw",
           "short_id": "68864506"
         }
       },
