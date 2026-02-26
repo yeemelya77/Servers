@@ -55,20 +55,20 @@
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.sony.co.jp",
+        "server_name": "www.nintendo.co.jp",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "0qXEWGa25IO6NhlfMPQUCDmVL9nkkkZERK9LvKcnkGA",
+          "public_key": "RIVjnsvuF-OUcpttkNDadl34CjOdljJBZEFKg7Hi9wQ",
           "short_id": "68864506"
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/"
+        "type": "grpc",
+        "service_name": ""
       }
     },
     {
