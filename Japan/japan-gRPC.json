@@ -50,7 +50,7 @@
       "type": "vless",
       "tag": "proxy",
       "server": "202.182.97.242",
-      "server_port": 2052,
+      "server_port": 8443,
       "uuid": "ITA",
       "packet_encoding": "xudp",
       "tls": {
