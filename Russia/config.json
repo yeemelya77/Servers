@@ -49,24 +49,10 @@
     {
       "type": "vless",
       "tag": "proxy",
-      "server": "94.232.44.135",
+      "server": "ru.cvetoshkabotplaynow.ru",
       "server_port": 443,
-      "uuid": "ITA",
-      "flow": "xtls-rprx-vision",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "rutube.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "G4QXrp5PMLFTRa09QiATzfDIhy0nUMvItMcQb2Kt2Qo",
-          "short_id": "c488e01b82c6fd"
-        }
-      }
+      "uuid": "Youtube",
+      "packet_encoding": "xudp"
     },
     {
       "type": "direct",
