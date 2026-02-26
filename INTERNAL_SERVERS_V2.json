@@ -11,5 +11,7 @@
     "Estonia-TCP": { "ip": "93.123.39.199", "iperf_port": 5201 },
     "Estonia-gRPC": { "ip": "93.123.39.199", "iperf_port": 5201 },
     "Latvia-TCP": { "ip": "31.57.157.172", "iperf_port": 5201 },
-    "Latvia-gRPC": { "ip": "31.57.157.172", "iperf_port": 5201 }
+    "Latvia-gRPC": { "ip": "31.57.157.172", "iperf_port": 5201 },
+    "Japan-TCP": { "ip": "202.182.97.242", "iperf_port": 5201 },
+    "Japan-gRPC": { "ip": "202.182.97.242", "iperf_port": 5201 }
 }
