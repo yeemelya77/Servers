@@ -56,14 +56,14 @@
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.nvidia.com",
+        "server_name": "www.sony.co.jp",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "3zIA-C57KW7AZKrkND_e863bPwtgROOW4yuIeL-0QAQ",
+          "public_key": "4mFDXnatE9_Z_UV_qwz6IdW1zVhK4An6XLNDwczBmxw",
           "short_id": "902c27cba7ef"
         }
       }
