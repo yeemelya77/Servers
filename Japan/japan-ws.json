@@ -62,13 +62,13 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "koQEho9F67QAfxf2x7g9rjcKWGLQevtIWFUjcLwt2yo",
+          "public_key": "9t0FrvZn0FAvIIX-SSUOrLtkQnX0Wb6aBlu9MV9GK1I",
           "short_id": "68864506"
         }
       },
       "transport": {
-        "type": "grpc",
-        "service_name": ""
+        "type": "ws",
+        "path": "/"
       }
     },
     {
