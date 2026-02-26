@@ -55,14 +55,14 @@
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.sony.com",
+        "server_name": "www.sony.co.jp",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "9t0FrvZn0FAvIIX-SSUOrLtkQnX0Wb6aBlu9MV9GK1I",
+          "public_key": "0qXEWGa25IO6NhlfMPQUCDmVL9nkkkZERK9LvKcnkGA",
           "short_id": "68864506"
         }
       },
