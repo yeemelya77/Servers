@@ -55,14 +55,14 @@
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "-jRQy9yP9bWm5MFSWdr_MaxOUrMv6G5w57eJXH_aUCw",
+          "public_key": "deF43IPbZLmBPKsvC-WI1BIvu_GjikgMbbiBJ0B95Ug",
           "short_id": "68864506"
         }
       },
