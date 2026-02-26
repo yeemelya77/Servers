@@ -56,14 +56,14 @@
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.nintendo.co.jp",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "OAnz079ZZBm5ey4yspVU73y7-a1lNMpG2Y3X22_Tumw",
+          "public_key": "y8bTKHAbc8HVGnomGQFzGPoTY3mIaPYpPJ-I-IeUh0E",
           "short_id": "902c27cba7ef"
         }
       }
