@@ -122,7 +122,7 @@
   "gta5_majestic": {
     "Name": "🚗 GTA V RP / Majestic",
     "Category": "🌌 RPG и MMO",
-    "Processes": ["GTA5.exe", "PlayGTAV.exe", "GTAVLauncher.exe", "RageMP.exe", "ragemp_v.exe", "RockstarService.exe", "FiveM.exe", "FiveM_GTAProcess.exe", "FiveM_ChromeBrowser.exe"]
+    "Processes": ["GTA5.exe", "PlayGTAV.exe", "GTAVLauncher.exe", "Launcher.exe", "RockstarService.exe", "SocialClubHelper.exe", "RageMP.exe", "ragemp_v.exe", "FiveM.exe", "FiveM_GTAProcess.exe", "FiveM_ChromeBrowser.exe", "altv.exe", "altv-webengine.exe"]
   },
   "dota2": {
     "Name": "⚔️ Dota 2",
@@ -232,7 +232,7 @@
   "rockstar": {
     "Name": "🎮 Rockstar Launcher",
     "Category": "🎮 Лаунчеры и Платформы",
-    "Processes": ["Launcher.exe", "SocialClubHelper.exe", "RockstarService.exe", "RockstarErrorHandler.exe"]
+    "Processes": ["Launcher.exe", "SocialClubHelper.exe", "RockstarService.exe"]
   },
   "4game": {
     "Name": "🎮 4Game",
