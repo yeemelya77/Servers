@@ -232,7 +232,7 @@
   "rockstar": {
     "Name": "🎮 Rockstar Launcher",
     "Category": "🎮 Лаунчеры и Платформы",
-    "Processes": ["Launcher.exe", "SocialClubHelper.exe", "RockstarService.exe"]
+    "Processes": ["Launcher.exe", "SocialClubHelper.exe", "RockstarService.exe", "RockstarErrorHandler.exe"]
   },
   "4game": {
     "Name": "🎮 4Game",
