@@ -252,7 +252,7 @@
   "roblox": {
     "Name": "🧱 Roblox",
     "Category": "🌌 RPG и MMO",
-    "Processes": ["RobloxPlayerBeta.exe", "RobloxStudioBeta.exe", "RobloxPlayerLauncher.exe", "RobloxPlayerInstaller.exe", "msedgewebview2.exe", "RobloxBootstrapper.exe"]
+    "Processes": ["RobloxPlayerBeta.exe", "RobloxStudioBeta.exe", "RobloxPlayerLauncher.exe", "RobloxPlayerInstaller.exe", "msedgewebview2.exe", "RobloxBootstrapper.exe", "PCClientBootstrapper.exe"]
   },
   "chrome": {
     "Name": "🌐 Google Chrome",
