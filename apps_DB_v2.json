@@ -2,286 +2,400 @@
   "fc24": {
     "Name": "⚽ EA Sports FC 24",
     "Category": "⚽ Спорт и Файтинги",
-    "Processes": ["FC24.exe", "FIFA23.exe", "EAAntiCheat.GameService.exe", "EAAntiCheat.GameServiceLauncher.exe"]
+    "Processes": ["FC24.exe", "FIFA23.exe", "EAAntiCheat.GameService.exe", "EAAntiCheat.GameServiceLauncher.exe"],
+    "Domains": ["ea.com"],
+    "Geosite": ["ea"]
   },
   "efootball": {
     "Name": "⚽ eFootball",
     "Category": "⚽ Спорт и Файтинги",
-    "Processes": ["eFootball.exe", "eFootball-Win64-Shipping.exe", "settings.exe"]
+    "Processes": ["eFootball.exe", "eFootball-Win64-Shipping.exe", "settings.exe"],
+    "Domains": ["konami.net"],
+    "Geosite": []
   },
   "tekken8": {
     "Name": "🥊 Tekken 8",
     "Category": "⚽ Спорт и Файтинги",
-    "Processes": ["Tekken8.exe", "Polaris-Win64-Shipping.exe"]
+    "Processes": ["Tekken8.exe", "Polaris-Win64-Shipping.exe"],
+    "Domains": ["bandainamcoent.com"],
+    "Geosite": []
   },
   "mk1": {
     "Name": "🩸 Mortal Kombat 1",
     "Category": "⚽ Спорт и Файтинги",
-    "Processes": ["MK12.exe", "MK1.exe"]
+    "Processes": ["MK12.exe", "MK1.exe"],
+    "Domains": ["wbgames.com"],
+    "Geosite": []
   },
   "sf6": {
     "Name": "🥊 Street Fighter 6",
     "Category": "⚽ Спорт и Файтинги",
-    "Processes": ["StreetFighter6.exe"]
+    "Processes": ["StreetFighter6.exe"],
+    "Domains": ["capcom.com"],
+    "Geosite": []
   },
   "dbd": {
     "Name": "💀 Dead by Daylight",
     "Category": "💣 Новинки и Выживание",
-    "Processes": ["DeadByDaylight.exe", "DeadByDaylight-Win64-Shipping.exe", "EADesktop.exe", "EasyAntiCheat_EOS.exe", "EasyAntiCheat.exe"]
+    "Processes": ["DeadByDaylight.exe", "DeadByDaylight-Win64-Shipping.exe", "EADesktop.exe", "EasyAntiCheat_EOS.exe", "EasyAntiCheat.exe"],
+    "Domains": ["bhvr.com"],
+    "Geosite": ["ea"]
   },
   "broken_arrow": {
     "Name": "🛡️ Broken Arrow",
     "Category": "💣 Новинки и Выживание",
-    "Processes": ["BrokenArrow.exe", "BrokenArrow_Shipping.exe", "Obelix.exe"]
+    "Processes": ["BrokenArrow.exe", "BrokenArrow_Shipping.exe", "Obelix.exe"],
+    "Domains": [],
+    "Geosite": []
   },
   "battlefield": {
     "Name": "🔫 Battlefield",
     "Category": "🔥 Топ Шутеры",
-    "Processes": ["bf.exe", "bf2042.exe", "bfv.exe", "bf1.exe", "bf4.exe", "Battlefield.exe", "BF2042.exe", "BF2042_launcher.exe", "EADesktop.exe", "EA Background.exe", "EAAntiCheat.GameService.exe"]
+    "Processes": ["bf.exe", "bf2042.exe", "bfv.exe", "bf1.exe", "bf4.exe", "Battlefield.exe", "BF2042.exe", "BF2042_launcher.exe", "EADesktop.exe", "EA Background.exe", "EAAntiCheat.GameService.exe"],
+    "Domains": ["battlefield.com"],
+    "Geosite": ["ea"]
   },
   "arena_breakout": {
     "Name": "💀 Arena Breakout",
     "Category": "💣 Новинки и Выживание",
-    "Processes": ["ArenaBreakoutInfinite.exe", "ABInfinite.exe", "UACE_Client.exe"]
+    "Processes": ["ArenaBreakoutInfinite.exe", "ABInfinite.exe", "UACE_Client.exe"],
+    "Domains": ["arenabreakoutinfinite.com"],
+    "Geosite": []
   },
   "delta_force": {
     "Name": "🔫 Delta Force",
     "Category": "💣 Новинки и Выживание",
-    "Processes": ["DeltaForce.exe", "DeltaForceClient-Win64-Shipping.exe"]
+    "Processes": ["DeltaForce.exe", "DeltaForceClient-Win64-Shipping.exe"],
+    "Domains": ["playdeltaforce.com"],
+    "Geosite": []
   },
   "deadlock": {
     "Name": "🔫 Deadlock",
     "Category": "💣 Новинки и Выживание",
-    "Processes": ["project8.exe", "project8.v64.exe", "deadlock.exe"]
+    "Processes": ["project8.exe", "project8.v64.exe", "deadlock.exe"],
+    "Domains": ["valvesoftware.com"],
+    "Geosite": ["steam"]
   },
   "the_finals": {
     "Name": "🔫 The Finals",
     "Category": "🔥 Топ Шутеры",
-    "Processes": ["Discovery.exe", "Discovery_BE.exe","EasyAntiCheat_EOS.exe", "EasyAntiCheat.exe"]
+    "Processes": ["Discovery.exe", "Discovery_BE.exe", "EasyAntiCheat_EOS.exe", "EasyAntiCheat.exe"],
+    "Domains": ["reachthefinals.com"],
+    "Geosite": ["epicgames"]
   },
   "apex": {
     "Name": "🔫 Apex Legends",
     "Category": "🔥 Топ Шутеры",
-    "Processes": ["r5apex.exe", "r5apex_dx12.exe", "EasyAntiCheat.exe", "EasyAntiCheat_EOS.exe", "Link2EA.exe", "EADesktop.exe"]
+    "Processes": ["r5apex.exe", "r5apex_dx12.exe", "EasyAntiCheat.exe", "EasyAntiCheat_EOS.exe", "Link2EA.exe", "EADesktop.exe"],
+    "Domains": ["ea.com"],
+    "Geosite": ["ea"]
   },
   "cs2": {
     "Name": "🔫 Counter-Strike 2",
     "Category": "🔥 Топ Шутеры",
-    "Processes": ["cs2.exe"]
+    "Processes": ["cs2.exe"],
+    "Domains": ["valvesoftware.com"],
+    "Geosite": ["steam"]
   },
   "pubg": {
     "Name": "🔫 PUBG: Battlegrounds",
     "Category": "🔥 Топ Шутеры",
-    "Processes": ["TslGame.exe", "ExecPubg.exe", "TslGame_BE.exe", "TslGame_UC.exe", "Zakynthos.exe", "BEService.exe", "TslGame_UC_x64.exe", "TslGame_x64.exe", "VivoxVoiceService.exe"]
+    "Processes": ["TslGame.exe", "ExecPubg.exe", "TslGame_BE.exe", "TslGame_UC.exe", "Zakynthos.exe", "BEService.exe", "TslGame_UC_x64.exe", "TslGame_x64.exe", "VivoxVoiceService.exe"],
+    "Domains": ["vivox.com", "vivox.net", "pubg.com", "krafton.com"],
+    "Geosite": []
   },
   "cod": {
     "Name": "🔫 Call of Duty",
     "Category": "🔥 Топ Шутеры",
-    "Processes": ["cod.exe", "ModernWarfare.exe", "BlackOpsColdWar.exe", "sp23-cod.exe", "mp23-cod.exe", "bootstrapper.exe", "Battle.net.exe", "Randgrid.sys"]
+    "Processes": ["cod.exe", "ModernWarfare.exe", "BlackOpsColdWar.exe", "sp23-cod.exe", "mp23-cod.exe", "bootstrapper.exe", "Battle.net.exe", "Agent.exe"],
+    "Domains": ["callofduty.com", "activision.com", "demonware.net"],
+    "Geosite": ["blizzard"]
   },
   "fortnite": {
     "Name": "🔨 Fortnite",
     "Category": "🔥 Топ Шутеры",
-    "Processes": ["FortniteClient-Win64-Shipping.exe", "FortniteClient-Win64-Shipping_BE.exe", "FortniteLauncher.exe", "EpicGamesLauncher.exe", "BattlEye.exe", "EasyAntiCheat_EOS.exe", "EasyAntiCheat.exe"]
+    "Processes": ["FortniteClient-Win64-Shipping.exe", "FortniteClient-Win64-Shipping_BE.exe", "FortniteLauncher.exe", "EpicGamesLauncher.exe", "BattlEye.exe", "EasyAntiCheat_EOS.exe", "EasyAntiCheat.exe"],
+    "Domains": ["fortnite.com", "epicgames.com"],
+    "Geosite": ["epicgames"]
   },
   "valorant": {
     "Name": "🔫 Valorant",
     "Category": "🔥 Топ Шутеры",
-    "Processes": ["VALORANT-Win64-Shipping.exe", "RiotClientServices.exe", "RiotClientUx.exe", "vgtray.exe", "vgc.exe"]
+    "Processes": ["VALORANT-Win64-Shipping.exe", "RiotClientServices.exe", "RiotClientUx.exe", "vgtray.exe", "vgc.exe"],
+    "Domains": ["valorant.com", "riotgames.com"],
+    "Geosite": ["riot"]
   },
   "siege": {
     "Name": "🔫 Rainbow Six: Siege",
     "Category": "🔥 Топ Шутеры",
-    "Processes": ["RainbowSix.exe", "RainbowSix_BE.exe", "upc.exe", "UplayWebCore.exe", "UbisoftGameLauncher.exe", "BEService.exe"]
+    "Processes": ["RainbowSix.exe", "RainbowSix_BE.exe", "upc.exe", "UplayWebCore.exe", "UbisoftGameLauncher.exe", "BEService.exe"],
+    "Domains": ["rainbow6.com", "ubisoft.com"],
+    "Geosite": ["ubisoft"]
   },
   "overwatch": {
     "Name": "🔫 Overwatch 2",
     "Category": "🔥 Топ Шутеры",
-    "Processes": ["Overwatch.exe", "Battle.net.exe"]
+    "Processes": ["Overwatch.exe", "Battle.net.exe"],
+    "Domains": ["battle.net", "blizzard.com"],
+    "Geosite": ["blizzard"]
   },
   "warface": {
     "Name": "🔫 Warface",
     "Category": "🔥 Топ Шутеры",
-    "Processes": ["Game.exe", "MyComGames.exe", "HG64.exe", "MRAC.exe"]
+    "Processes": ["Game.exe", "MyComGames.exe", "HG64.exe", "MRAC.exe"],
+    "Domains": ["warface.com", "my.com"],
+    "Geosite": ["vk", "mailru"]
   },
   "tarkov": {
     "Name": "💀 Escape from Tarkov",
     "Category": "💣 Новинки и Выживание",
-    "Processes": ["EscapeFromTarkov.exe", "EscapeFromTarkov_BE.exe", "BsgLauncher.exe", "BEService.exe"]
+    "Processes": ["EscapeFromTarkov.exe", "EscapeFromTarkov_BE.exe", "BsgLauncher.exe", "BEService.exe"],
+    "Domains": ["escapefromtarkov.com", "battlestategames.com"],
+    "Geosite": []
   },
   "rust": {
     "Name": "💀 Rust",
     "Category": "💣 Новинки и Выживание",
-    "Processes": ["RustClient.exe", "EasyAntiCheat_EOS.exe", "EasyAntiCheat.exe"]
+    "Processes": ["RustClient.exe", "EasyAntiCheat_EOS.exe", "EasyAntiCheat.exe"],
+    "Domains": ["facepunch.com"],
+    "Geosite": []
   },
   "dayz": {
     "Name": "💀 DayZ",
     "Category": "💣 Новинки и Выживание",
-    "Processes": ["DayZ_x64.exe", "DayZLauncher.exe", "DZSALauncher.exe", "BEService.exe"]
+    "Processes": ["DayZ_x64.exe", "DayZLauncher.exe", "DZSALauncher.exe", "BEService.exe"],
+    "Domains": ["dayz.com", "bistudio.com"],
+    "Geosite": []
   },
   "gta5_majestic": {
     "Name": "🚗 GTA V / RP / Majestic",
     "Category": "🌌 RPG и MMO",
-    "Processes": ["GTA5.exe", "PlayGTAV.exe", "GTAVLauncher.exe", "Launcher.exe", "RockstarSteamHelper.exe", "RockstarService.exe", "SocialClubHelper.exe", "RageMP.exe", "ragemp_v.exe", "FiveM.exe", "FiveM_GTAProcess.exe", "FiveM_ChromeBrowser.exe", "altv.exe", "altv-webengine.exe", "LauncherPatcher.exe", "cef_browser_process.exe"]
+    "Processes": ["GTA5.exe", "PlayGTAV.exe", "GTAVLauncher.exe", "Launcher.exe", "RockstarSteamHelper.exe", "RockstarService.exe", "SocialClubHelper.exe", "RageMP.exe", "ragemp_v.exe", "FiveM.exe", "FiveM_GTAProcess.exe", "FiveM_ChromeBrowser.exe", "altv.exe", "altv-webengine.exe", "LauncherPatcher.exe", "cef_browser_process.exe"],
+    "Domains": ["rockstargames.com", "socialclub.rockstargames.com", "rsg.sc", "cfx.re", "fivem.net"],
+    "Geosite": ["rockstar"]
   },
   "dota2": {
     "Name": "⚔️ Dota 2",
     "Category": "⚔️ MOBA и Стратегии",
-    "Processes": ["dota2.exe"]
+    "Processes": ["dota2.exe"],
+    "Domains": ["dota2.com"],
+    "Geosite": ["steam"]
   },
   "league": {
     "Name": "⚔️ League of Legends",
     "Category": "⚔️ MOBA и Стратегии",
-    "Processes": ["League of Legends.exe", "LeagueClient.exe", "LeagueClientUx.exe", "RiotClientServices.exe", "RiotClientUx.exe"]
+    "Processes": ["League of Legends.exe", "LeagueClient.exe", "LeagueClientUx.exe", "RiotClientServices.exe", "RiotClientUx.exe"],
+    "Domains": ["leagueoflegends.com", "riotgames.com"],
+    "Geosite": ["riot"]
   },
   "warcraft": {
     "Name": "⚔️ World of Warcraft",
     "Category": "⚔️ MOBA и Стратегии",
-    "Processes": ["Wow.exe", "Warcraft III.exe", "Hearthstone.exe", "Battle.net.exe"]
+    "Processes": ["Wow.exe", "Warcraft III.exe", "Hearthstone.exe", "Battle.net.exe"],
+    "Domains": ["worldofwarcraft.com", "battle.net"],
+    "Geosite": ["blizzard"]
   },
   "tanks": {
     "Name": "🚜 World of Tanks / Lesta",
     "Category": "⚔️ MOBA и Стратегии",
-    "Processes": ["WorldOfTanks.exe", "wot_dx11.exe", "Lesta.exe", "wgc.exe"]
+    "Processes": ["WorldOfTanks.exe", "wot_dx11.exe", "Lesta.exe", "wgc.exe"],
+    "Domains": ["wargaming.net", "worldoftanks.ru", "lesta.ru"],
+    "Geosite": ["wargaming"]
   },
   "iccup": {
     "Name": "🏆 iCCup",
     "Category": "⚔️ MOBA и Стратегии",
-    "Processes": ["iCCupLauncher.exe", "starcraft.exe", "war3.exe"]
+    "Processes": ["iCCupLauncher.exe", "starcraft.exe", "war3.exe"],
+    "Domains": ["iccup.com"],
+    "Geosite": []
   },
   "heroes3": {
     "Name": "🏰 Heroes 3",
     "Category": "⚔️ MOBA и Стратегии",
-    "Processes": ["h3ota.exe", "Heroes3.exe"]
+    "Processes": ["h3ota.exe", "Heroes3.exe"],
+    "Domains": [],
+    "Geosite": []
   },
   "warframe": {
     "Name": "🌌 Warframe",
     "Category": "🌌 RPG и MMO",
-    "Processes": ["Warframe.exe", "Warframe.x64.exe", "Launcher.exe"]
+    "Processes": ["Warframe.exe", "Warframe.x64.exe", "Launcher.exe"],
+    "Domains": ["warframe.com"],
+    "Geosite": []
   },
   "path_of_exile": {
     "Name": "🌌 Path of Exile",
     "Category": "🌌 RPG и MMO",
-    "Processes": ["PathOfExile.exe", "PathOfExileSteam.exe", "PathOfExile_x64.exe"]
+    "Processes": ["PathOfExile.exe", "PathOfExileSteam.exe", "PathOfExile_x64.exe"],
+    "Domains": ["pathofexile.com"],
+    "Geosite": []
   },
   "genshin": {
     "Name": "✨ Genshin Impact",
     "Category": "✨ Аниме и Gacha",
-    "Processes": ["GenshinImpact.exe", "YuanShen.exe", "HYP.exe", "HoYoKProtect.exe", "cef_browser_process.exe", "hbh5.exe"]
+    "Processes": ["GenshinImpact.exe", "YuanShen.exe", "HYP.exe", "HoYoKProtect.exe", "cef_browser_process.exe", "hbh5.exe"],
+    "Domains": ["hoyoverse.com", "mihoyo.com", "genshinimpact.com"],
+    "Geosite": ["hoyoverse", "mihoyo"]
   },
   "honkai_star_rail": {
     "Name": "✨ Honkai: Star Rail",
     "Category": "✨ Аниме и Gacha",
-    "Processes": ["StarRail.exe", "StarRailBase.dll", "HYP.exe"]
+    "Processes": ["StarRail.exe", "StarRailBase.dll", "HYP.exe"],
+    "Domains": ["honkaistarrail.com", "hoyoverse.com"],
+    "Geosite": ["hoyoverse", "mihoyo"]
   },
   "honkai_impact": {
     "Name": "✨ Honkai Impact 3rd",
     "Category": "✨ Аниме и Gacha",
-    "Processes": ["BH3.exe"]
+    "Processes": ["BH3.exe"],
+    "Domains": ["honkaiimpact3.com"],
+    "Geosite": ["hoyoverse", "mihoyo"]
   },
   "zenless": {
     "Name": "✨ Zenless Zone Zero",
     "Category": "✨ Аниме и Gacha",
-    "Processes": ["ZenlessZoneZero.exe", "HYP.exe"]
+    "Processes": ["ZenlessZoneZero.exe", "HYP.exe"],
+    "Domains": ["zenless.hoyoverse.com"],
+    "Geosite": ["hoyoverse", "mihoyo"]
   },
   "wuthering": {
     "Name": "✨ Wuthering Waves",
     "Category": "✨ Аниме и Gacha",
-    "Processes": ["WutheringWaves.exe", "Client-Win64-Shipping.exe"]
+    "Processes": ["WutheringWaves.exe", "Client-Win64-Shipping.exe"],
+    "Domains": ["kurogames.com"],
+    "Geosite": []
   },
   "osu": {
     "Name": "🎵 osu!",
     "Category": "✨ Аниме и Gacha",
-    "Processes": ["osu!.exe"]
+    "Processes": ["osu!.exe"],
+    "Domains": ["ppy.sh", "osu.ppy.sh"],
+    "Geosite": []
   },
   "steam": {
     "Name": "🎮 Steam (Full)",
     "Category": "🎮 Лаунчеры и Платформы",
-    "Processes": ["steam.exe", "steamwebhelper.exe", "GameOverlayUI.exe"]
+    "Processes": ["steam.exe", "steamwebhelper.exe", "GameOverlayUI.exe"],
+    "Domains": ["steampowered.com", "steamcommunity.com"],
+    "Geosite": ["steam"]
   },
   "battlenet": {
     "Name": "🎮 Battle.net",
     "Category": "🎮 Лаунчеры и Платформы",
-    "Processes": ["Battle.net.exe", "Agent.exe"]
+    "Processes": ["Battle.net.exe", "Agent.exe"],
+    "Domains": ["battle.net", "blizzard.com"],
+    "Geosite": ["blizzard"]
   },
   "epic": {
     "Name": "🎮 Epic Games",
     "Category": "🎮 Лаунчеры и Платформы",
-    "Processes": ["EpicGamesLauncher.exe", "EpicWebHelper.exe", "EpicOnlineServices.exe"]
+    "Processes": ["EpicGamesLauncher.exe", "EpicWebHelper.exe", "EpicOnlineServices.exe"],
+    "Domains": ["epicgames.com", "unrealengine.com"],
+    "Geosite": ["epicgames"]
   },
   "ea": {
     "Name": "🎮 EA App",
     "Category": "🎮 Лаунчеры и Платформы",
-    "Processes": ["EADesktop.exe", "EABackgroundService.exe", "Link2EA.exe"]
+    "Processes": ["EADesktop.exe", "EABackgroundService.exe", "Link2EA.exe"],
+    "Domains": ["ea.com", "origin.com"],
+    "Geosite": ["ea"]
   },
   "ubisoft": {
     "Name": "🎮 Ubisoft Connect",
     "Category": "🎮 Лаунчеры и Платформы",
-    "Processes": ["upc.exe", "UplayWebCore.exe", "UbisoftGameLauncher.exe"]
+    "Processes": ["upc.exe", "UplayWebCore.exe", "UbisoftGameLauncher.exe"],
+    "Domains": ["ubisoft.com", "uplay.com"],
+    "Geosite": ["ubisoft"]
   },
   "wargaming": {
     "Name": "🎮 Wargaming Center",
     "Category": "🎮 Лаунчеры и Платформы",
-    "Processes": ["wgc.exe", "cef_browser_process.exe", "wgc_helper.exe"]
+    "Processes": ["wgc.exe", "cef_browser_process.exe", "wgc_helper.exe"],
+    "Domains": ["wargaming.net", "wargaming.com"],
+    "Geosite": ["wargaming"]
   },
   "gog": {
     "Name": "🎮 GOG Galaxy",
     "Category": "🎮 Лаунчеры и Платформы",
-    "Processes": ["GalaxyClient.exe", "GalaxyClientService.exe"]
+    "Processes": ["GalaxyClient.exe", "GalaxyClientService.exe"],
+    "Domains": ["gog.com", "gog-statics.com"],
+    "Geosite": []
   },
   "rockstar": {
     "Name": "🎮 Rockstar Launcher",
     "Category": "🎮 Лаунчеры и Платформы",
-    "Processes": ["GTA5.exe", "PlayGTAV.exe", "GTAVLauncher.exe", "Launcher.exe", "RockstarSteamHelper.exe", "RockstarService.exe", "SocialClubHelper.exe", "RageMP.exe", "ragemp_v.exe", "FiveM.exe", "FiveM_GTAProcess.exe", "FiveM_ChromeBrowser.exe", "altv.exe", "altv-webengine.exe", "LauncherPatcher.exe", "cef_browser_process.exe", "msedgewebview2.exe"]
+    "Processes": ["GTA5.exe", "PlayGTAV.exe", "GTAVLauncher.exe", "Launcher.exe", "RockstarSteamHelper.exe", "RockstarService.exe", "SocialClubHelper.exe", "RageMP.exe", "ragemp_v.exe", "FiveM.exe", "FiveM_GTAProcess.exe", "FiveM_ChromeBrowser.exe", "altv.exe", "altv-webengine.exe", "LauncherPatcher.exe", "cef_browser_process.exe", "msedgewebview2.exe"],
+    "Domains": ["rockstargames.com", "socialclub.rockstargames.com", "rsg.sc"],
+    "Geosite": ["rockstar"]
   },
   "4game": {
     "Name": "🎮 4Game",
     "Category": "🎮 Лаунчеры и Платформы",
-    "Processes": ["4game-service.exe", "FROST.exe"]
+    "Processes": ["4game-service.exe", "FROST.exe"],
+    "Domains": ["4game.com", "innkeeper.com"],
+    "Geosite": []
   },
   "gamecenter": {
     "Name": "🎮 VK Play / My.Games",
     "Category": "🎮 Лаунчеры и Платформы",
-    "Processes": ["GameCenter.exe", "MyComGames.exe"]
+    "Processes": ["GameCenter.exe", "MyComGames.exe"],
+    "Domains": ["vkplay.ru", "my.games"],
+    "Geosite": ["vk", "mailru"]
   },
   "discord": {
     "Name": "💬 Discord",
     "Category": "🎮 Лаунчеры и Платформы",
-    "Processes": ["Discord.exe", "Update.exe", "discord_voice.exe"]
+    "Processes": ["Discord.exe", "Update.exe", "discord_voice.exe"],
+    "Domains": ["discord.com", "discord.gg", "discordapp.com", "discordapp.net", "discord.media", "gateway.discord.gg", "rtc.discord.gg"],
+    "Geosite": ["discord"]
   },
   "roblox": {
     "Name": "🧱 Roblox",
     "Category": "🌌 RPG и MMO",
-    "Processes": ["RobloxPlayerBeta.exe", "RobloxStudioBeta.exe", "RobloxPlayerLauncher.exe", "RobloxPlayerInstaller.exe", "msedgewebview2.exe", "RobloxBootstrapper.exe", "PCClientBootstrapper.exe", "svchost.exe"]
+    "Processes": ["RobloxPlayerBeta.exe", "RobloxStudioBeta.exe", "RobloxPlayerLauncher.exe", "RobloxPlayerInstaller.exe", "msedgewebview2.exe", "RobloxBootstrapper.exe", "PCClientBootstrapper.exe"],
+    "Domains": ["roblox.com", "rbxcdn.com", "clientsettingscdn.roblox.com"],
+    "Geosite": ["roblox"]
   },
   "chrome": {
     "Name": "🌐 Google Chrome",
     "Category": "🌐 Браузеры",
-    "Processes": ["chrome.exe", "chrome_proxy.exe", "installer.exe"]
+    "Processes": ["chrome.exe", "chrome_proxy.exe", "installer.exe"],
+    "Domains": [],
+    "Geosite": []
   },
   "yandex_browser": {
     "Name": "🔴 Yandex Browser",
     "Category": "🌐 Браузеры",
-    "Processes": ["browser.exe", "yandex.exe", "yandex_browser.exe"]
+    "Processes": ["browser.exe", "yandex.exe", "yandex_browser.exe"],
+    "Domains": [],
+    "Geosite": []
   },
   "firefox": {
     "Name": "🦊 Mozilla Firefox",
     "Category": "🌐 Браузеры",
-    "Processes": ["firefox.exe"]
+    "Processes": ["firefox.exe"],
+    "Domains": [],
+    "Geosite": []
   },
   "edge": {
     "Name": "🔵 Microsoft Edge",
     "Category": "🌐 Браузеры",
-    "Processes": ["msedge.exe", "msedge_proxy.exe"]
+    "Processes": ["msedge.exe", "msedge_proxy.exe"],
+    "Domains": [],
+    "Geosite": []
   },
   "repo": {
     "Name": "👾 R.E.P.O.",
     "Category": "💣 Новинки и Выживание",
-    "Processes": ["REPO.exe", "R.E.P.O.exe", "RepoClient.exe", "UnityCrashHandler64.exe"]
+    "Processes": ["REPO.exe", "R.E.P.O.exe", "RepoClient.exe", "UnityCrashHandler64.exe"],
+    "Domains": [],
+    "Geosite": []
   },
   "services_cdn": {
     "Name": "☁️ UNBLOCK: CDN (Fix Ping)",
     "Category": "☁️ Спец. функции",
-    "Processes": []
+    "Processes": [],
+    "Domains": [],
+    "Geosite": []
   }
 }
