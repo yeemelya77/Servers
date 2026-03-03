@@ -55,14 +55,14 @@
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.oracle.com",
+        "server_name": "delfi.lv",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "6tDv9mAOkwp0HnvztN0Fbd4KQeQx5Pkm-QY-TL9qYk4",
+          "public_key": "wZMQXhoIoCz-B1RjtxJbKq8-EvteGpWBXylz91SD6TM",
           "short_id": "8fa3b04576"
         }
       },
