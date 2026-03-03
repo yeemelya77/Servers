@@ -1,97 +1,34 @@
 {
-  "log": {
-    "level": "info",
-    "timestamp": true
+  "protocol": "vless",
+  "settings": {
+    "vnext": [
+      {
+        "address": "94.232.44.135",
+        "port": 2052,
+        "users": [
+          {
+            "id": "ITA2",
+            "encryption": "none",
+            "flow": ""
+          }
+        ]
+      }
+    ]
   },
-  "dns": {
-    "servers": [
-      {
-        "tag": "google",
-        "address": "8.8.8.8",
-        "detour": "proxy"
-      },
-      {
-        "tag": "local",
-        "address": "local",
-        "detour": "direct"
-      }
-    ],
-    "rules": [
-      {
-        "outbound": "any",
-        "server": "google"
-      }
-    ],
-    "final": "google",
-    "strategy": "ipv4_only"
+  "streamSettings": {
+    "network": "grpc",
+    "security": "reality",
+    "grpcSettings": {
+      "serviceName": "",
+      "multiMode": false
+    },
+    "realitySettings": {
+      "publicKey": "PG2a-Wroq5dXiTMAu0OPhfBE4pC5qp7uE25An_Hvu0A",
+      "fingerprint": "chrome",
+      "serverName": "www.nvidia.com",
+      "shortId": "e1a2f09d04198774",
+      "spiderX": "/"
+    }
   },
-  "inbounds": [
-    {
-      "type": "tun",
-      "tag": "tun-in",
-      "interface_name": "tun0",
-      "inet4_address": "172.19.0.1/30",
-      "mtu": 1400,
-      "auto_route": true,
-      "strict_route": true,
-      "stack": "gvisor",
-      "sniff": true,
-      "platform": {
-        "http_proxy": {
-          "enabled": true,
-          "server": "127.0.0.1",
-          "server_port": 2080
-        }
-      }
-    }
-  ],
-  "outbounds": [
-    {
-      "type": "vless",
-      "tag": "proxy",
-      "server": "ru.cvetoshkabotplaynow.ru",
-      "server_port": 2052,
-      "uuid": "ITA2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.nvidia.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "PG2a-Wroq5dXiTMAu0OPhfBE4pC5qp7uE25An_Hvu0A",
-          "short_id": "e1a2f09d04198774"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
-    },
-    {
-      "type": "direct",
-      "tag": "direct"
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    }
-  ],
-  "route": {
-    "rules": [
-      {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "ip_is_private": true,
-        "outbound": "direct"
-      }
-    ],
-    "auto_detect_interface": true,
-    "final": "proxy"
-  }
+  "tag": "gRPC-ITA2"
 }
