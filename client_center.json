@@ -5,7 +5,7 @@
     {
       "badge": "ПРОМО",
       "title": "Нужен такой же клиент на другой ПК?",
-      "text": "Пиши в Telegram: @PlayNowSupport",
+      "text": "Пиши в Telegram",
       "accent": "#00C26F",
       "cta": "Telegram: @PlayNowSupport"
     }
@@ -13,8 +13,8 @@
   "updates": [
     {
       "badge": "NEW",
-      "title": "Добавлен новый сервер",
-      "text": "Теперь доступен новый маршрут для Европы.",
+      "title": "Добавлен новый сервер- Япония",
+      "text": "Пинг от 25мс!",
       "color": "#4FB7FF"
     },
     {
