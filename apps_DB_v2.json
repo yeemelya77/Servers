@@ -63,18 +63,6 @@
     ],
     "Geosite": []
   },
-  "marathon": {
-    "Name": "🔫 Marathon",
-    "Category": "💣 Новинки и Выживание",
-    "Processes": [
-      "Marathon.exe",
-      "Marathon-Win64-Shipping.exe"
-    ],
-    "Domains": [
-      "bungie.net"
-    ],
-    "Geosite": []
-  },
   "dbd": {
     "Name": "💀 Dead by Daylight",
     "Category": "💣 Новинки и Выживание",
