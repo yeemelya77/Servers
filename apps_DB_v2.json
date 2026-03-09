@@ -28,6 +28,19 @@
     ],
     "Geosite": []
   },
+  "rocket_league": {
+    "Name": "⚽ Rocket League",
+    "Category": "⚽ Спорт и Файтинги",
+    "Processes": [
+      "RocketLeague.exe",
+      "RocketLeagueLauncher.exe"
+    ],
+    "Domains": [
+      "rocketleague.com",
+      "psyonix.com"
+    ],
+    "Geosite": []
+  },
   "tekken8": {
     "Name": "🥊 Tekken 8",
     "Category": "⚽ Спорт и Файтинги",
@@ -138,6 +151,19 @@
     ],
     "Geosite": []
   },
+  "fragpunk": {
+    "Name": "🔫 FragPunk",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "FragPunk.exe",
+      "FragPunk-Win64-Shipping.exe"
+    ],
+    "Domains": [
+      "fragpunk.com",
+      "neteasegames.com"
+    ],
+    "Geosite": []
+  },
   "deadlock": {
     "Name": "🔫 Deadlock",
     "Category": "💣 Новинки и Выживание",
@@ -168,6 +194,20 @@
     "Geosite": [
       "epicgames"
     ]
+  },
+  "marvel_rivals": {
+    "Name": "🔫 Marvel Rivals",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "MarvelRivals.exe",
+      "MarvelRivals_Launcher.exe",
+      "Marvel-Win64-Shipping.exe"
+    ],
+    "Domains": [
+      "marvelrivals.com",
+      "neteasegames.com"
+    ],
+    "Geosite": []
   },
   "apex": {
     "Name": "🔫 Apex Legends",
@@ -316,6 +356,31 @@
       "blizzard"
     ]
   },
+  "destiny2": {
+    "Name": "🔫 Destiny 2",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "destiny2.exe",
+      "BungieErrorHandler.exe"
+    ],
+    "Domains": [
+      "bungie.net",
+      "destinythegame.com"
+    ],
+    "Geosite": []
+  },
+  "war_thunder": {
+    "Name": "🔫 War Thunder",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "aces.exe"
+    ],
+    "Domains": [
+      "warthunder.com",
+      "gaijin.net"
+    ],
+    "Geosite": []
+  },
   "warface": {
     "Name": "🔫 Warface",
     "Category": "🔥 Топ Шутеры",
@@ -359,6 +424,19 @@
     ],
     "Domains": [
       "facepunch.com"
+    ],
+    "Geosite": []
+  },
+  "once_human": {
+    "Name": "💀 Once Human",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "OnceHuman.exe",
+      "OnceHuman-Win64-Shipping.exe"
+    ],
+    "Domains": [
+      "oncehuman.game",
+      "neteasegames.com"
     ],
     "Geosite": []
   },
@@ -781,6 +859,20 @@
       "vk",
       "mailru"
     ]
+  },
+  "faceit": {
+    "Name": "🎯 FACEIT",
+    "Category": "🎮 Лаунчеры и Платформы",
+    "Processes": [
+      "FACEIT.exe",
+      "FACEIT AC.exe",
+      "FACEITAntiCheat.exe"
+    ],
+    "Domains": [
+      "faceit.com",
+      "api.faceit.com"
+    ],
+    "Geosite": []
   },
   "discord": {
     "Name": "💬 Discord",
