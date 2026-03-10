@@ -304,6 +304,27 @@
       "epicgames"
     ]
   },
+  "fall_guys": {
+    "Name": "🫘 Fall Guys",
+    "Category": "🎉 Аркады и Пати",
+    "Processes": [
+      "FallGuys_client_game.exe",
+      "FallGuys_client.exe",
+      "EpicGamesLauncher.exe",
+      "EpicWebHelper.exe",
+      "EpicOnlineServices.exe",
+      "EasyAntiCheat_EOS.exe"
+    ],
+    "Domains": [
+      "fallguys.com",
+      "epicgames.com",
+      "on.epicgames.com",
+      "api.epicgames.dev"
+    ],
+    "Geosite": [
+      "epicgames"
+    ]
+  },
   "valorant": {
     "Name": "🔫 Valorant",
     "Category": "🔥 Топ Шутеры",
@@ -894,6 +915,22 @@
     "Geosite": [
       "discord"
     ]
+  },
+  "telegram": {
+    "Name": "✈️ Telegram",
+    "Category": "🎮 Лаунчеры и Платформы",
+    "Processes": [
+      "Telegram.exe"
+    ],
+    "Domains": [
+      "telegram.org",
+      "t.me",
+      "telegram.me",
+      "api.telegram.org",
+      "tdesktop.com",
+      "telegram-cdn.org"
+    ],
+    "Geosite": []
   },
   "roblox": {
     "Name": "🧱 Roblox",
