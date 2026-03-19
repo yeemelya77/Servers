@@ -923,12 +923,26 @@
       "Telegram.exe"
     ],
     "Domains": [
-      "telegram.org",
+      "cdn-telegram.org",
+      "comments.app",
+      "contest.com",
+      "fragment.com",
+      "graph.org",
+      "quiz.directory",
       "t.me",
-      "telegram.me",
-      "api.telegram.org",
       "tdesktop.com",
-      "telegram-cdn.org"
+      "telega.one",
+      "telegra.ph",
+      "telegram-cdn.org",
+      "telegram.dog",
+      "telegram.me",
+      "telegram.org",
+      "telegram.space",
+      "telesco.pe",
+      "tg.dev",
+      "tx.me",
+      "usercontent.dev",
+      "ton.org"
     ],
     "Geosite": []
   },
