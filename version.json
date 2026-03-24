@@ -1,8 +1,8 @@
 {
   "version": "2.1.1",
   "packageType": "exe",
-  "url": "https://github.com/<owner>/<repo>/releases/download/v2.1.1/PlayNow.Client.exe",
-  "exeUrl": "https://github.com/<owner>/<repo>/releases/download/v2.1.1/PlayNow.Client.exe",
-  "archiveUrl": "https://github.com/<owner>/<repo>/releases/download/v2.1.1/PlayNow.Client-2.1.1.zip",
+  "url": "https://github.com/yeemelya77/Servers/releases/download/v2.1.1/PlayNow.Client.exe",
+  "exeUrl": "https://github.com/yeemelya77/Servers/releases/download/v2.1.1/PlayNow.Client.exe",
+  "archiveUrl": "https://github.com/yeemelya77/Servers/releases/download/v2.1.1/PlayNow.Client-2.1.1.zip",
   "sameVersionArchiveBootstrap": true
 }
