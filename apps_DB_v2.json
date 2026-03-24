@@ -916,6 +916,19 @@
       "discord"
     ]
   },
+  "discord_voice_only": {
+    "Name": "Discord Voice Only",
+    "Category": "Связь и общение",
+    "Processes": [
+      "discord_voice.exe"
+    ],
+    "Domains": [
+      "gateway.discord.gg",
+      "rtc.discord.gg",
+      "discord.media"
+    ],
+    "Geosite": []
+  },
   "telegram": {
     "Name": "✈️ Telegram",
     "Category": "🎮 Лаунчеры и Платформы",
@@ -923,26 +936,15 @@
       "Telegram.exe"
     ],
     "Domains": [
-      "cdn-telegram.org",
-      "comments.app",
-      "contest.com",
-      "fragment.com",
-      "graph.org",
-      "quiz.directory",
-      "t.me",
-      "tdesktop.com",
-      "telega.one",
-      "telegra.ph",
-      "telegram-cdn.org",
-      "telegram.dog",
-      "telegram.me",
       "telegram.org",
-      "telegram.space",
+      "t.me",
+      "telegram.me",
+      "api.telegram.org",
+      "tdesktop.com",
+      "cdn-telegram.org",
+      "telegra.ph",
       "telesco.pe",
-      "tg.dev",
-      "tx.me",
-      "usercontent.dev",
-      "ton.org"
+      "graph.org"
     ],
     "Geosite": []
   },
@@ -1035,5 +1037,19 @@
     "Geosite": [
       "russia-inside@hodca"
     ]
+  },
+  "arc_raiders": {
+    "Name": "?? ARC Raiders",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "PioneerGame.exe",
+      "start_protected_game.exe",
+      "EasyAntiCheat_EOS.exe"
+    ],
+    "Domains": [
+      "arcraiders.com",
+      "embark-studios.com"
+    ],
+    "Geosite": []
   }
 }
