@@ -916,19 +916,6 @@
       "discord"
     ]
   },
-  "discord_voice_only": {
-    "Name": "Discord Voice Only",
-    "Category": "Связь и общение",
-    "Processes": [
-      "discord_voice.exe"
-    ],
-    "Domains": [
-      "gateway.discord.gg",
-      "rtc.discord.gg",
-      "discord.media"
-    ],
-    "Geosite": []
-  },
   "telegram": {
     "Name": "✈️ Telegram",
     "Category": "🎮 Лаунчеры и Платформы",
