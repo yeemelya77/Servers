@@ -1025,9 +1025,9 @@
       "russia-inside@hodca"
     ]
   },
-  "arc_raiders": {
+   "arc_raiders": {
     "Name": "?? ARC Raiders",
-    "Category": "🔥 Топ Шутеры",
+    "Category": "?? ??????? ? ?????????",
     "Processes": [
       "PioneerGame.exe",
       "start_protected_game.exe",
@@ -1038,5 +1038,23 @@
       "embark-studios.com"
     ],
     "Geosite": []
+  },
+  "arma_reforger": {
+    "Name": "?? Arma Reforger",
+    "Category": "?? ??? ???????",
+    "Processes": [
+      "ArmaReforgerSteam.exe",
+      "ArmaReforgerSteamDiag.exe",
+      "ArmaReforger_BE.exe",
+      "BEService_x64.exe"
+    ],
+    "Domains": [
+      "reforger.armaplatform.com",
+      "armaplatform.com",
+      "arma.com",
+      "bohemia.net"
+    ],
+    "Geosite": []
   }
 }
+
