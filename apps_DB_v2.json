@@ -1040,8 +1040,8 @@
     "Geosite": []
   },
   "arma_reforger": {
-    "Name": "?? Arma Reforger",
-    "Category": "?? ??? ???????",
+    "Name": "Arma Reforger",
+    "Category": "MOBA и Стратегии",
     "Processes": [
       "ArmaReforgerSteam.exe",
       "ArmaReforgerSteamDiag.exe",
