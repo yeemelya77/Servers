@@ -916,6 +916,19 @@
       "discord"
     ]
   },
+  "discord_voice_only": {
+    "Name": "Discord Voice Only",
+    "Category": "Связь и общение",
+    "Processes": [
+      "discord_voice.exe"
+    ],
+    "Domains": [
+      "gateway.discord.gg",
+      "rtc.discord.gg",
+      "discord.media"
+    ],
+    "Geosite": []
+  },
   "telegram": {
     "Name": "✈️ Telegram",
     "Category": "🎮 Лаунчеры и Платформы",
@@ -956,8 +969,102 @@
       "roblox"
     ]
   },
+  "youtube": {
+    "Name": "▶ YouTube",
+    "Category": "🌐 Браузеры",
+    "Processes": [],
+    "Domains": [
+      "youtube.com",
+      "youtu.be",
+      "ytimg.com",
+      "googlevideo.com",
+      "youtubei.googleapis.com",
+      "youtube-nocookie.com"
+    ],
+    "Geosite": []
+  },
+  "twitch": {
+    "Name": "📺 Twitch",
+    "Category": "🌐 Браузеры",
+    "Processes": [],
+    "Domains": [
+      "twitch.tv",
+      "ttvnw.net",
+      "twitchcdn.net",
+      "jtvnw.net",
+      "ext-twitch.tv"
+    ],
+    "Geosite": []
+  },
+  "vk": {
+    "Name": "🟦 VK / VK Video",
+    "Category": "🌐 Браузеры",
+    "Processes": [],
+    "Domains": [
+      "vk.com",
+      "vk.ru",
+      "vkvideo.ru",
+      "userapi.com",
+      "vk-cdn.net"
+    ],
+    "Geosite": [
+      "vk"
+    ]
+  },
+  "x_twitter": {
+    "Name": "✖ X / Twitter",
+    "Category": "🌐 Браузеры",
+    "Processes": [],
+    "Domains": [
+      "x.com",
+      "twitter.com",
+      "twimg.com",
+      "t.co"
+    ],
+    "Geosite": []
+  },
+  "instagram": {
+    "Name": "📸 Instagram",
+    "Category": "🌐 Браузеры",
+    "Processes": [],
+    "Domains": [
+      "instagram.com",
+      "cdninstagram.com",
+      "ig.me",
+      "threads.net"
+    ],
+    "Geosite": []
+  },
+  "facebook": {
+    "Name": "📘 Facebook / Messenger",
+    "Category": "🌐 Браузеры",
+    "Processes": [],
+    "Domains": [
+      "facebook.com",
+      "fb.com",
+      "fbcdn.net",
+      "messenger.com",
+      "fbsbx.com"
+    ],
+    "Geosite": []
+  },
+  "chatgpt": {
+    "Name": "🤖 ChatGPT / OpenAI",
+    "Category": "🌐 Браузеры",
+    "Processes": [],
+    "Domains": [
+      "chatgpt.com",
+      "chat.openai.com",
+      "openai.com",
+      "api.openai.com",
+      "auth.openai.com",
+      "oaistatic.com",
+      "oaiusercontent.com"
+    ],
+    "Geosite": []
+  },
   "chrome": {
-    "Name": "🌐 Google Chrome",
+    "Name": "🌐 Google Chrome (Full proxy)",
     "Category": "🌐 Браузеры",
     "Processes": [
       "chrome.exe",
@@ -968,7 +1075,7 @@
     "Geosite": []
   },
   "yandex_browser": {
-    "Name": "🔴 Yandex Browser",
+    "Name": "🔴 Yandex Browser (Full proxy)",
     "Category": "🌐 Браузеры",
     "Processes": [
       "browser.exe",
@@ -979,7 +1086,7 @@
     "Geosite": []
   },
   "firefox": {
-    "Name": "🦊 Mozilla Firefox",
+    "Name": "🦊 Mozilla Firefox (Full proxy)",
     "Category": "🌐 Браузеры",
     "Processes": [
       "firefox.exe"
@@ -988,7 +1095,7 @@
     "Geosite": []
   },
   "edge": {
-    "Name": "🔵 Microsoft Edge",
+    "Name": "🔵 Microsoft Edge (Full proxy)",
     "Category": "🌐 Браузеры",
     "Processes": [
       "msedge.exe",
@@ -1010,22 +1117,22 @@
     "Geosite": []
   },
   "services_cdn": {
-    "Name": "☁️ UNBLOCK: CDN (Fix Ping)",
-    "Category": "☁️ Спец. функции",
+    "Name": "☁️ CDN (domains only)",
+    "Category": "🌐 Браузеры",
     "Processes": [],
     "Domains": [],
     "Geosite": []
   },
   "hosters_hodca": {
-    "Name": "☁️ Хостеры и CDN (Hodca)",
-    "Category": "☁️ Хостеры и CDN",
+    "Name": "☁️ Hosters / CDN (domains only)",
+    "Category": "🌐 Браузеры",
     "Processes": [],
     "Domains": [],
     "Geosite": [
       "russia-inside@hodca"
     ]
   },
-   "arc_raiders": {
+  "arc_raiders": {
     "Name": "?? ARC Raiders",
     "Category": "?? ??????? ? ?????????",
     "Processes": [
@@ -1040,8 +1147,8 @@
     "Geosite": []
   },
   "arma_reforger": {
-    "Name": "Arma Reforger",
-    "Category": "MOBA и Стратегии",
+    "Name": "?? Arma Reforger",
+    "Category": "?? ??? ???????",
     "Processes": [
       "ArmaReforgerSteam.exe",
       "ArmaReforgerSteamDiag.exe",
@@ -1057,4 +1164,3 @@
     "Geosite": []
   }
 }
-
