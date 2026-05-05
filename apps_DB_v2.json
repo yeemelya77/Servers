@@ -1002,12 +1002,9 @@
       "youtubei.googleapis.com",
       "youtube.googleapis.com",
       "youtube-nocookie.com",
-      "ggpht.com",
-      "gstatic.com",
-      "googleapis.com",
-      "googleusercontent.com",
-      "google.com",
-      "doubleclick.net"
+      "yt3.ggpht.com",
+      "youtube-ui.l.google.com",
+      "ytimg.l.google.com"
     ],
     "Geosite": [
       "youtube"
@@ -1132,6 +1129,119 @@
       "speedtest"
     ]
   },
+  "tiktok": {
+    "Name": "TikTok",
+    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Processes": [],
+    "Domains": [
+      "tiktok.com",
+      "tiktokv.com",
+      "tiktokcdn.com",
+      "byteoversea.com",
+      "ibyteimg.com",
+      "ibytedtos.com",
+      "muscdn.com",
+      "musical.ly"
+    ],
+    "Geosite": [
+      "tiktok"
+    ]
+  },
+  "reddit": {
+    "Name": "Reddit",
+    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Processes": [],
+    "Domains": [
+      "reddit.com",
+      "redd.it",
+      "redditmedia.com",
+      "redditstatic.com",
+      "redditinc.com"
+    ],
+    "Geosite": [
+      "reddit"
+    ]
+  },
+  "linkedin": {
+    "Name": "LinkedIn",
+    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Processes": [],
+    "Domains": [
+      "linkedin.com",
+      "licdn.com",
+      "lnkd.in"
+    ],
+    "Geosite": [
+      "linkedin"
+    ]
+  },
+  "spotify": {
+    "Name": "Spotify",
+    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Processes": [],
+    "Domains": [
+      "spotify.com",
+      "scdn.co",
+      "spotifycdn.com",
+      "spoti.fi"
+    ],
+    "Geosite": [
+      "spotify"
+    ]
+  },
+  "netflix": {
+    "Name": "Netflix",
+    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Processes": [],
+    "Domains": [
+      "netflix.com",
+      "nflxvideo.net",
+      "nflximg.net",
+      "nflxso.net",
+      "nflxext.com"
+    ],
+    "Geosite": [
+      "netflix"
+    ]
+  },
+  "whatsapp": {
+    "Name": "WhatsApp",
+    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Processes": [],
+    "Domains": [
+      "whatsapp.com",
+      "whatsapp.net",
+      "wa.me"
+    ],
+    "Geosite": [
+      "whatsapp"
+    ]
+  },
+  "snapchat": {
+    "Name": "Snapchat",
+    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Processes": [],
+    "Domains": [
+      "snapchat.com",
+      "snap.com",
+      "sc-cdn.net"
+    ],
+    "Geosite": [
+      "snapchat"
+    ]
+  },
+  "pinterest": {
+    "Name": "Pinterest",
+    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Processes": [],
+    "Domains": [
+      "pinterest.com",
+      "pinimg.com"
+    ],
+    "Geosite": [
+      "pinterest"
+    ]
+  },
   "chrome": {
     "Name": "🌐 Google Chrome (Full proxy)",
     "Category": "🌐 Браузеры",
@@ -1149,7 +1259,8 @@
     "Processes": [
       "browser.exe",
       "yandex.exe",
-      "yandex_browser.exe"
+      "yandex_browser.exe",
+      "yandexbrowser.exe"
     ],
     "Domains": [],
     "Geosite": []
