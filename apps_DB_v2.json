@@ -969,6 +969,26 @@
       "roblox"
     ]
   },
+  "google": {
+    "Name": "Google Services",
+    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Processes": [],
+    "Domains": [
+      "google.com",
+      "google.ru",
+      "gstatic.com",
+      "googleapis.com",
+      "googleusercontent.com",
+      "ggpht.com",
+      "googleadservices.com",
+      "googletagmanager.com",
+      "google-analytics.com",
+      "doubleclick.net"
+    ],
+    "Geosite": [
+      "google"
+    ]
+  },
   "youtube": {
     "Name": "▶ YouTube",
     "Category": "🌐 Браузеры",
@@ -976,12 +996,22 @@
     "Domains": [
       "youtube.com",
       "youtu.be",
+      "yt.be",
       "ytimg.com",
       "googlevideo.com",
       "youtubei.googleapis.com",
-      "youtube-nocookie.com"
+      "youtube.googleapis.com",
+      "youtube-nocookie.com",
+      "ggpht.com",
+      "gstatic.com",
+      "googleapis.com",
+      "googleusercontent.com",
+      "google.com",
+      "doubleclick.net"
     ],
-    "Geosite": []
+    "Geosite": [
+      "youtube"
+    ]
   },
   "twitch": {
     "Name": "📺 Twitch",
@@ -992,9 +1022,12 @@
       "ttvnw.net",
       "twitchcdn.net",
       "jtvnw.net",
-      "ext-twitch.tv"
+      "ext-twitch.tv",
+      "live-video.net"
     ],
-    "Geosite": []
+    "Geosite": [
+      "twitch"
+    ]
   },
   "vk": {
     "Name": "🟦 VK / VK Video",
@@ -1005,7 +1038,12 @@
       "vk.ru",
       "vkvideo.ru",
       "userapi.com",
-      "vk-cdn.net"
+      "vk-cdn.net",
+      "vk-cdn.me",
+      "vkcdnservice.com",
+      "vkuseraudio.net",
+      "vkuserlive.net",
+      "vkuservideo.net"
     ],
     "Geosite": [
       "vk"
@@ -1019,9 +1057,12 @@
       "x.com",
       "twitter.com",
       "twimg.com",
-      "t.co"
+      "t.co",
+      "pscp.tv"
     ],
-    "Geosite": []
+    "Geosite": [
+      "twitter"
+    ]
   },
   "instagram": {
     "Name": "📸 Instagram",
@@ -1031,9 +1072,17 @@
       "instagram.com",
       "cdninstagram.com",
       "ig.me",
-      "threads.net"
+      "threads.net",
+      "facebook.com",
+      "fb.com",
+      "fbcdn.net",
+      "fbsbx.com",
+      "facebook.net",
+      "meta.com"
     ],
-    "Geosite": []
+    "Geosite": [
+      "instagram"
+    ]
   },
   "facebook": {
     "Name": "📘 Facebook / Messenger",
@@ -1044,9 +1093,13 @@
       "fb.com",
       "fbcdn.net",
       "messenger.com",
-      "fbsbx.com"
+      "fbsbx.com",
+      "facebook.net",
+      "meta.com"
     ],
-    "Geosite": []
+    "Geosite": [
+      "facebook"
+    ]
   },
   "chatgpt": {
     "Name": "🤖 ChatGPT / OpenAI",
@@ -1062,6 +1115,22 @@
       "oaiusercontent.com"
     ],
     "Geosite": []
+  },
+  "speedtest": {
+    "Name": "Speedtest / Fast",
+    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Processes": [],
+    "Domains": [
+      "speedtest.net",
+      "ookla.com",
+      "speedtestcustom.com",
+      "cdnst.net",
+      "fast.com",
+      "nflxvideo.net"
+    ],
+    "Geosite": [
+      "speedtest"
+    ]
   },
   "chrome": {
     "Name": "🌐 Google Chrome (Full proxy)",
