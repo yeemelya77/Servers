@@ -971,7 +971,7 @@
   },
   "google": {
     "Name": "Google Services",
-    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Category": "Browsers and services",
     "Processes": [],
     "Domains": [
       "google.com",
@@ -999,6 +999,8 @@
       "yt.be",
       "ytimg.com",
       "googlevideo.com",
+      "gvt1.com",
+      "gvt2.com",
       "youtubei.googleapis.com",
       "youtube.googleapis.com",
       "youtube-nocookie.com",
@@ -1115,7 +1117,7 @@
   },
   "speedtest": {
     "Name": "Speedtest / Fast",
-    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Category": "Browsers and services",
     "Processes": [],
     "Domains": [
       "speedtest.net",
@@ -1131,7 +1133,7 @@
   },
   "tiktok": {
     "Name": "TikTok",
-    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Category": "Browsers and services",
     "Processes": [],
     "Domains": [
       "tiktok.com",
@@ -1149,7 +1151,7 @@
   },
   "reddit": {
     "Name": "Reddit",
-    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Category": "Browsers and services",
     "Processes": [],
     "Domains": [
       "reddit.com",
@@ -1164,7 +1166,7 @@
   },
   "linkedin": {
     "Name": "LinkedIn",
-    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Category": "Browsers and services",
     "Processes": [],
     "Domains": [
       "linkedin.com",
@@ -1177,7 +1179,7 @@
   },
   "spotify": {
     "Name": "Spotify",
-    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Category": "Browsers and services",
     "Processes": [],
     "Domains": [
       "spotify.com",
@@ -1191,7 +1193,7 @@
   },
   "netflix": {
     "Name": "Netflix",
-    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Category": "Browsers and services",
     "Processes": [],
     "Domains": [
       "netflix.com",
@@ -1206,7 +1208,7 @@
   },
   "whatsapp": {
     "Name": "WhatsApp",
-    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Category": "Browsers and services",
     "Processes": [],
     "Domains": [
       "whatsapp.com",
@@ -1219,7 +1221,7 @@
   },
   "snapchat": {
     "Name": "Snapchat",
-    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Category": "Browsers and services",
     "Processes": [],
     "Domains": [
       "snapchat.com",
@@ -1232,7 +1234,7 @@
   },
   "pinterest": {
     "Name": "Pinterest",
-    "Category": "馃寪 袘褉邪褍蟹械褉褘",
+    "Category": "Browsers and services",
     "Processes": [],
     "Domains": [
       "pinterest.com",
