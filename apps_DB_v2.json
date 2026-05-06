@@ -970,8 +970,8 @@
     ]
   },
   "google": {
-    "Name": "Google Services",
-    "Category": "Browsers and services",
+    "Name": "Google Services (only Google domains)",
+    "Category": "Сервисы в любом браузере",
     "Processes": [],
     "Domains": [
       "google.com",
@@ -990,8 +990,8 @@
     ]
   },
   "youtube": {
-    "Name": "▶ YouTube",
-    "Category": "🌐 Браузеры",
+    "Name": "YouTube (only YouTube domains)",
+    "Category": "Сервисы в любом браузере",
     "Processes": [],
     "Domains": [
       "youtube.com",
@@ -1245,8 +1245,8 @@
     ]
   },
   "chrome": {
-    "Name": "🌐 Google Chrome (Full proxy)",
-    "Category": "🌐 Браузеры",
+    "Name": "Google Chrome - весь браузер через VPN",
+    "Category": "Браузеры целиком",
     "Processes": [
       "chrome.exe",
       "chrome_proxy.exe",
@@ -1256,8 +1256,8 @@
     "Geosite": []
   },
   "yandex_browser": {
-    "Name": "🔴 Yandex Browser (Full proxy)",
-    "Category": "🌐 Браузеры",
+    "Name": "Yandex Browser - весь браузер через VPN",
+    "Category": "Браузеры целиком",
     "Processes": [
       "browser.exe",
       "yandex.exe",
@@ -1268,8 +1268,8 @@
     "Geosite": []
   },
   "firefox": {
-    "Name": "🦊 Mozilla Firefox (Full proxy)",
-    "Category": "🌐 Браузеры",
+    "Name": "Mozilla Firefox - весь браузер через VPN",
+    "Category": "Браузеры целиком",
     "Processes": [
       "firefox.exe"
     ],
@@ -1277,8 +1277,8 @@
     "Geosite": []
   },
   "edge": {
-    "Name": "🔵 Microsoft Edge (Full proxy)",
-    "Category": "🌐 Браузеры",
+    "Name": "Microsoft Edge - весь браузер через VPN",
+    "Category": "Браузеры целиком",
     "Processes": [
       "msedge.exe",
       "msedge_proxy.exe"
