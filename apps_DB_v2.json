@@ -887,13 +887,24 @@
     "Processes": [
       "FACEIT.exe",
       "FACEIT AC.exe",
-      "FACEITAntiCheat.exe"
+      "FACEITAntiCheat.exe",
+      "FACEITService.exe",
+      "FACEITClient.exe",
+      "cs2.exe",
+      "steam.exe",
+      "steamwebhelper.exe",
+      "GameOverlayUI.exe",
+      "SteamService.exe"
     ],
     "Domains": [
       "faceit.com",
-      "api.faceit.com"
+      "api.faceit.com",
+      "faceit-cdn.net",
+      "valvesoftware.com"
     ],
-    "Geosite": []
+    "Geosite": [
+      "steam"
+    ]
   },
   "discord": {
     "Name": "💬 Discord",
@@ -1003,15 +1014,9 @@
       "gvt2.com",
       "youtubei.googleapis.com",
       "youtube.googleapis.com",
-      "youtubeembeddedplayer.googleapis.com",
-      "youtubeanalytics.com",
       "youtube-nocookie.com",
-      "withyoutube.com",
-      "youtubeeducation.com",
-      "ggpht.com",
       "yt3.ggpht.com",
       "youtube-ui.l.google.com",
-      "wide-youtube.l.google.com",
       "ytimg.l.google.com"
     ],
     "Geosite": [
