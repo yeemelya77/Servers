@@ -1014,9 +1014,15 @@
       "gvt2.com",
       "youtubei.googleapis.com",
       "youtube.googleapis.com",
+      "youtubeembeddedplayer.googleapis.com",
+      "youtubeanalytics.com",
       "youtube-nocookie.com",
+      "withyoutube.com",
+      "youtubeeducation.com",
+      "ggpht.com",
       "yt3.ggpht.com",
       "youtube-ui.l.google.com",
+      "wide-youtube.l.google.com",
       "ytimg.l.google.com"
     ],
     "Geosite": [
@@ -1293,6 +1299,17 @@
     "Processes": [
       "msedge.exe",
       "msedge_proxy.exe"
+    ],
+    "Domains": [],
+    "Geosite": []
+  },
+  "opera": {
+    "Name": "Opera / Opera GX - весь браузер через VPN",
+    "Category": "Браузеры целиком",
+    "Processes": [
+      "opera.exe",
+      "opera_gx.exe",
+      "opera_browser.exe"
     ],
     "Domains": [],
     "Geosite": []
