@@ -292,13 +292,17 @@
       "FortniteClient-Win64-Shipping_BE.exe",
       "FortniteLauncher.exe",
       "EpicGamesLauncher.exe",
+      "EpicWebHelper.exe",
+      "EpicOnlineServices.exe",
       "BattlEye.exe",
       "EasyAntiCheat_EOS.exe",
       "EasyAntiCheat.exe"
     ],
     "Domains": [
       "fortnite.com",
-      "epicgames.com"
+      "epicgames.com",
+      "on.epicgames.com",
+      "api.epicgames.dev"
     ],
     "Geosite": [
       "epicgames"
