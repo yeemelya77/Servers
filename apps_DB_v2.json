@@ -290,19 +290,31 @@
     "Processes": [
       "FortniteClient-Win64-Shipping.exe",
       "FortniteClient-Win64-Shipping_BE.exe",
+      "FortniteClient-Win64-Shipping_EAC_EOS.exe",
       "FortniteLauncher.exe",
       "EpicGamesLauncher.exe",
       "EpicWebHelper.exe",
       "EpicOnlineServices.exe",
+      "EpicOnlineServicesHost.exe",
+      "UnrealCEFSubProcess.exe",
       "BattlEye.exe",
       "EasyAntiCheat_EOS.exe",
-      "EasyAntiCheat.exe"
+      "EasyAntiCheat.exe",
+      "CrashReportClient.exe"
     ],
     "Domains": [
       "fortnite.com",
       "epicgames.com",
+      "epicgames.dev",
+      "epicgamescdn.com",
+      "unrealengine.com",
       "on.epicgames.com",
-      "api.epicgames.dev"
+      "ol.epicgames.com",
+      "api.epicgames.dev",
+      "launcher-public-service-prod06.ol.epicgames.com",
+      "prodregistryv2.org",
+      "featureassets.org",
+      "statsigapi.net"
     ],
     "Geosite": [
       "epicgames"
@@ -317,6 +329,8 @@
       "EpicGamesLauncher.exe",
       "EpicWebHelper.exe",
       "EpicOnlineServices.exe",
+      "EpicOnlineServicesHost.exe",
+      "UnrealCEFSubProcess.exe",
       "EasyAntiCheat_EOS.exe"
     ],
     "Domains": [
@@ -754,11 +768,22 @@
     "Processes": [
       "EpicGamesLauncher.exe",
       "EpicWebHelper.exe",
-      "EpicOnlineServices.exe"
+      "EpicOnlineServices.exe",
+      "EpicOnlineServicesHost.exe",
+      "UnrealCEFSubProcess.exe"
     ],
     "Domains": [
       "epicgames.com",
-      "unrealengine.com"
+      "epicgames.dev",
+      "epicgamescdn.com",
+      "unrealengine.com",
+      "on.epicgames.com",
+      "ol.epicgames.com",
+      "api.epicgames.dev",
+      "launcher-public-service-prod06.ol.epicgames.com",
+      "prodregistryv2.org",
+      "featureassets.org",
+      "statsigapi.net"
     ],
     "Geosite": [
       "epicgames"
