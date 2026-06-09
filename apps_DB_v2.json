@@ -267,8 +267,10 @@
     "Category": "🔥 Топ Шутеры",
     "Processes": [
       "cod.exe",
+      "cod22-cod.exe",
       "ModernWarfare.exe",
       "BlackOpsColdWar.exe",
+      "sp22-cod.exe",
       "sp23-cod.exe",
       "mp23-cod.exe",
       "bootstrapper.exe",
