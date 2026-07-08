@@ -1,0 +1,128 @@
+{
+  "_comment": "Удалённые настройки клиента PlayNow. Файл лежит на GitHub и подхватывается клиентом на старте без пересборки. Любое поле можно удалить или оставить пустым: тогда клиент возьмёт встроенное значение по умолчанию.",
+  "_autostartApps_comment": "Какие приложения показывать и запускать в автозапуске клиента по умолчанию. Здесь указываются ключи приложений из apps_DB_v2.json.",
+  "autostartApps": ["discord", "telegram"],
+  "_supportUrl_comment": "Ссылка на поддержку или страницу помощи. Если null, клиент использует встроенный сценарий поддержки.",
+  "supportUrl": null,
+  "_reportRelayUrl_comment": "URL вашего relay-сервера для отчётов. Клиент отправляет туда ZIP с логами и диагностикой (POST multipart: machine, caption, kind, file), а сервер уже пересылает его в Telegram. Токен бота должен жить только на сервере. null = использовать старую прямую отправку в Telegram.",
+  "reportRelayUrl": null,
+  "_verifyApiUrls_comment": "Резервные URL для проверки лицензии. Клиент идёт по списку сверху вниз: если первый сервер недоступен, пробует следующий. Порядок в массиве = приоритет.",
+  "verifyApiUrls": [
+    "https://ru.cvetoshkabotplaynow.ru:8443",
+    "https://origin-subru-tw.cvetoshkabot24.ru"
+  ],
+  "_remoteAccess_comment": "Процессы и домены, которые должны идти напрямую в обход туннеля. Это нужно для оболочек клуба, удалёнки, VNC, MeshCentral и других служебных штук, которые нельзя случайно завернуть в VPN.",
+  "_remoteAccessProcesses_comment": "Имена exe-файлов, которые надо пускать напрямую мимо VPN. Пример: MeshAgent.exe.",
+  "remoteAccessProcesses": [],
+  "_remoteAccessDomains_comment": "Домены или IP, которые должны идти напрямую мимо VPN. Полезно для панели клуба, удалённого доступа, лицензии локальных сервисов и подобного.",
+  "remoteAccessDomains": [],
+  "_ruBypassFeedKeys_comment": "Какие готовые списки сервисов гнать через VPN в режиме «Обход РУ». Ключи соответствуют фидам из allow-domains. Чем больше ключей включено, тем шире охват обхода. Это удобно для Discord, Telegram, Google AI, Google Play, хостеров, Cloudflare и похожих сервисов без пересборки клиента.",
+  "ruBypassFeedKeys": [
+    "discord", "telegram", "youtube", "tiktok", "twitter", "meta", "hdrezka",
+    "google_ai", "google_meet", "google_play", "hodca", "cloudflare", "geoblock", "news", "anime", "block"
+  ],
+  "_appProxyDomains_comment": "Домены, которые нужно гнать через VPN, когда выбрано конкретное приложение. Ключ слева = ключ приложения из apps_DB_v2.json. Сюда добавляют backend, auth, CDN и voice-домены, если одного exe недостаточно и приложение частично ходит напрямую.",
+  "appProxyDomains": {
+    "discord": [
+      "discord.com",
+      "discordapp.com",
+      "discordapp.net",
+      "discord.gg",
+      "discord.media",
+      "discord.dev",
+      "discord.gift",
+      "discordstatus.com"
+    ],
+    "fortnite": [
+      "epicgames.com",
+      "unrealengine.com",
+      "epicgames.dev",
+      "ol.epicgames.com",
+      "fortnite-public-service-prod11.ol.epicgames.com",
+      "datarouter.ol.epicgames.com"
+    ]
+  },
+  "_appProxyCidrs_comment": "IP-подсети в CIDR, которые надо гнать через VPN для выбранного приложения. Нужны там, где сервисы сидят не на доменах, а на голых IP или за большими CDN/Anycast-сетями вроде Cloudflare. Важно: пока приложение выбрано, весь трафик на эти IP пойдёт через VPN.",
+  "appProxyCidrs": {
+    "discord": [
+      "173.245.48.0/20",
+      "103.21.244.0/22",
+      "103.22.200.0/22",
+      "103.31.4.0/22",
+      "141.101.64.0/18",
+      "108.162.192.0/18",
+      "190.93.240.0/20",
+      "188.114.96.0/20",
+      "197.234.240.0/22",
+      "198.41.128.0/17",
+      "162.158.0.0/15",
+      "104.16.0.0/13",
+      "104.24.0.0/14",
+      "172.64.0.0/13",
+      "131.0.72.0/22"
+    ],
+    "fortnite": [
+      "173.245.48.0/20",
+      "103.21.244.0/22",
+      "103.22.200.0/22",
+      "103.31.4.0/22",
+      "141.101.64.0/18",
+      "108.162.192.0/18",
+      "190.93.240.0/20",
+      "188.114.96.0/20",
+      "197.234.240.0/22",
+      "198.41.128.0/17",
+      "162.158.0.0/15",
+      "104.16.0.0/13",
+      "104.24.0.0/14",
+      "172.64.0.0/13",
+      "131.0.72.0/22"
+    ]
+  },
+  "_launcherAuthDomains_comment": "Домены запуска и авторизации лаунчеров. Эти адреса автоматически прокидываются через VPN, чтобы лаунчер и игра корректно стартовали даже при холодном запуске.",
+  "launcherAuthDomains": {
+    "epic": [
+      "epicgames.com",
+      "ol.epicgames.com",
+      "accounts.epicgames.com",
+      "account-public-service-prod.ol.epicgames.com",
+      "epicgames.dev",
+      "api.epicgames.dev",
+      "eos-connect.epicgames.dev"
+    ],
+    "riot": [
+      "riotgames.com",
+      "auth.riotgames.com",
+      "entitlements.auth.riotgames.com",
+      "clientconfig.rpg.riotgames.com",
+      "riotcdn.net"
+    ],
+    "battlenet": [
+      "battle.net",
+      "account.battle.net",
+      "blizzard.com",
+      "us.actual.battle.net",
+      "eu.actual.battle.net",
+      "level3.blizzard.com"
+    ],
+    "ea": [
+      "ea.com",
+      "accounts.ea.com",
+      "signin.ea.com",
+      "gateway.ea.com",
+      "eadp.ea.com",
+      "juno.ea.com",
+      "origin.com",
+      "eacdn.com",
+      "eamythic.com",
+      "eaaccounts.akamaized.net"
+    ],
+    "ubisoft": [
+      "ubisoft.com",
+      "ubisoftconnect.com",
+      "ubi.com",
+      "public-ubiservices.ubi.com",
+      "connect.ubisoft.com"
+    ]
+  }
+}
