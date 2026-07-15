@@ -6,6 +6,9 @@
   "supportUrl": null,
   "_reportRelayUrl_comment": "URL вашего relay-сервера для отчётов. Клиент отправляет туда ZIP с логами и диагностикой (POST multipart: machine, caption, kind, file), а сервер уже пересылает его в Telegram. Токен бота должен жить только на сервере. null = использовать старую прямую отправку в Telegram.",
   "reportRelayUrl": null,
+  "_reportTg_comment": "Токен и chat_id бота Telegram для ПРЯМОЙ отправки отчётов (если не используешь relay). Клиент берёт их, если нет локального .env. ВНИМАНИЕ: в публичном репозитории эти значения видны всем.",
+  "reportTgBotToken": "8046057410:AAHRss_0KKdu6UROBmLxQtxBDObOMCnM-uU",
+  "reportTgChatId": "153140633",
   "_verifyApiUrls_comment": "Резервные URL для проверки лицензии. Клиент идёт по списку сверху вниз: если первый сервер недоступен, пробует следующий. Порядок в массиве = приоритет.",
   "verifyApiUrls": [
     "https://ru.cvetoshkabotplaynow.ru:8443",
