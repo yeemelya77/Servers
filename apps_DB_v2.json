@@ -1062,7 +1062,7 @@
   },
   "twitch": {
     "Name": "📺 Twitch",
-    "Category": "🌐 Браузеры",
+    "Category": "🎬 Стриминг и медиа",
     "Processes": [],
     "Domains": [
       "twitch.tv",
@@ -1070,7 +1070,8 @@
       "twitchcdn.net",
       "jtvnw.net",
       "ext-twitch.tv",
-      "live-video.net"
+      "live-video.net",
+      "twitch.map.fastly.net"
     ],
     "Geosite": [
       "twitch"
@@ -1098,7 +1099,7 @@
   },
   "x_twitter": {
     "Name": "✖ X / Twitter",
-    "Category": "🌐 Браузеры",
+    "Category": "💬 Соцсети и мессенджеры",
     "Processes": [],
     "Domains": [
       "x.com",
@@ -1113,7 +1114,7 @@
   },
   "instagram": {
     "Name": "📸 Instagram",
-    "Category": "🌐 Браузеры",
+    "Category": "💬 Соцсети и мессенджеры",
     "Processes": [],
     "Domains": [
       "instagram.com",
@@ -1133,7 +1134,7 @@
   },
   "facebook": {
     "Name": "📘 Facebook / Messenger",
-    "Category": "🌐 Браузеры",
+    "Category": "💬 Соцсети и мессенджеры",
     "Processes": [],
     "Domains": [
       "facebook.com",
@@ -1150,7 +1151,7 @@
   },
   "chatgpt": {
     "Name": "🤖 ChatGPT / OpenAI",
-    "Category": "🌐 Браузеры",
+    "Category": "🤖 ИИ-сервисы",
     "Processes": [],
     "Domains": [
       "chatgpt.com",
@@ -1165,7 +1166,7 @@
   },
   "speedtest": {
     "Name": "Speedtest / Fast",
-    "Category": "Browsers and services",
+    "Category": "🎬 Стриминг и медиа",
     "Processes": [],
     "Domains": [
       "speedtest.net",
@@ -1181,7 +1182,7 @@
   },
   "tiktok": {
     "Name": "TikTok",
-    "Category": "Browsers and services",
+    "Category": "💬 Соцсети и мессенджеры",
     "Processes": [],
     "Domains": [
       "tiktok.com",
@@ -1199,7 +1200,7 @@
   },
   "reddit": {
     "Name": "Reddit",
-    "Category": "Browsers and services",
+    "Category": "💬 Соцсети и мессенджеры",
     "Processes": [],
     "Domains": [
       "reddit.com",
@@ -1214,7 +1215,7 @@
   },
   "linkedin": {
     "Name": "LinkedIn",
-    "Category": "Browsers and services",
+    "Category": "💬 Соцсети и мессенджеры",
     "Processes": [],
     "Domains": [
       "linkedin.com",
@@ -1227,13 +1228,17 @@
   },
   "spotify": {
     "Name": "Spotify",
-    "Category": "Browsers and services",
-    "Processes": [],
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [
+      "Spotify.exe"
+    ],
     "Domains": [
       "spotify.com",
       "scdn.co",
       "spotifycdn.com",
-      "spoti.fi"
+      "spoti.fi",
+      "spotify.map.fastly.net",
+      "audio-ak-spotify-com.akamaized.net"
     ],
     "Geosite": [
       "spotify"
@@ -1241,14 +1246,15 @@
   },
   "netflix": {
     "Name": "Netflix",
-    "Category": "Browsers and services",
+    "Category": "🎬 Стриминг и медиа",
     "Processes": [],
     "Domains": [
       "netflix.com",
       "nflxvideo.net",
       "nflximg.net",
       "nflxso.net",
-      "nflxext.com"
+      "nflxext.com",
+      "netflix.net"
     ],
     "Geosite": [
       "netflix"
@@ -1256,7 +1262,7 @@
   },
   "whatsapp": {
     "Name": "WhatsApp",
-    "Category": "Browsers and services",
+    "Category": "💬 Соцсети и мессенджеры",
     "Processes": [],
     "Domains": [
       "whatsapp.com",
@@ -1269,7 +1275,7 @@
   },
   "snapchat": {
     "Name": "Snapchat",
-    "Category": "Browsers and services",
+    "Category": "💬 Соцсети и мессенджеры",
     "Processes": [],
     "Domains": [
       "snapchat.com",
@@ -1282,7 +1288,7 @@
   },
   "pinterest": {
     "Name": "Pinterest",
-    "Category": "Browsers and services",
+    "Category": "💬 Соцсети и мессенджеры",
     "Processes": [],
     "Domains": [
       "pinterest.com",
@@ -1374,33 +1380,1239 @@
     ]
   },
   "arc_raiders": {
-    "Name": "?? ARC Raiders",
-    "Category": "?? ??????? ? ?????????",
+    "Name": "🤖 ARC Raiders",
+    "Category": "💣 Новинки и Выживание",
     "Processes": [
-      "PioneerGame.exe",
-      "start_protected_game.exe",
-      "EasyAntiCheat_EOS.exe"
+      "ARC-Raiders.exe",
+      "ARCRaiders.exe",
+      "ARC Raiders.exe"
     ],
     "Domains": [
-      "arcraiders.com",
-      "embark-studios.com"
+      "embark-studios.com",
+      "arcraiders.com"
     ],
     "Geosite": []
   },
   "arma_reforger": {
-    "Name": "?? Arma Reforger",
-    "Category": "?? ??? ???????",
+    "Name": "🪖 Arma Reforger",
+    "Category": "💣 Новинки и Выживание",
     "Processes": [
       "ArmaReforgerSteam.exe",
-      "ArmaReforgerSteamDiag.exe",
-      "ArmaReforger_BE.exe",
-      "BEService_x64.exe"
+      "ArmaReforger.exe",
+      "ArmaReforgerWorkbenchSteam.exe"
     ],
     "Domains": [
-      "reforger.armaplatform.com",
-      "armaplatform.com",
-      "arma.com",
-      "bohemia.net"
+      "bohemia.net",
+      "bistudio.com"
+    ],
+    "Geosite": []
+  },
+  "disney_plus": {
+    "Name": "🎬 Disney+",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "disneyplus.com",
+      "disney-plus.net",
+      "dssott.com",
+      "bamgrid.com",
+      "disneyplus.disney.com",
+      "dss-cdn.net"
+    ],
+    "Geosite": []
+  },
+  "hbo_max": {
+    "Name": "🎬 HBO Max / Max",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "max.com",
+      "hbomax.com",
+      "hbomaxcdn.com",
+      "hbo.com",
+      "hbonow.com"
+    ],
+    "Geosite": []
+  },
+  "prime_video": {
+    "Name": "🎬 Amazon Prime Video",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "primevideo.com",
+      "amazonvideo.com",
+      "aiv-cdn.net",
+      "pv-cdn.net",
+      "atv-ps.amazon.com"
+    ],
+    "Geosite": []
+  },
+  "apple_tv": {
+    "Name": "🎬 Apple TV+",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "tv.apple.com",
+      "video.itunes.apple.com",
+      "play-edge.itunes.apple.com",
+      "aod-ssl.itunes.apple.com"
+    ],
+    "Geosite": []
+  },
+  "hulu": {
+    "Name": "🎬 Hulu",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "hulu.com",
+      "hulustream.com",
+      "huluim.com"
+    ],
+    "Geosite": []
+  },
+  "crunchyroll": {
+    "Name": "🎬 Crunchyroll",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "crunchyroll.com",
+      "crunchyroll.net",
+      "vrv.co"
+    ],
+    "Geosite": []
+  },
+  "paramount_plus": {
+    "Name": "🎬 Paramount+",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "paramountplus.com",
+      "cbsivideo.com",
+      "cbsaavideo.com"
+    ],
+    "Geosite": []
+  },
+  "peacock": {
+    "Name": "🎬 Peacock",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "peacocktv.com",
+      "peacock.com"
+    ],
+    "Geosite": []
+  },
+  "soundcloud": {
+    "Name": "🎵 SoundCloud",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "soundcloud.com",
+      "sndcdn.com"
+    ],
+    "Geosite": []
+  },
+  "deezer": {
+    "Name": "🎵 Deezer",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "deezer.com",
+      "dzcdn.net"
+    ],
+    "Geosite": []
+  },
+  "tidal": {
+    "Name": "🎵 TIDAL",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "tidal.com",
+      "tidalhifi.com"
+    ],
+    "Geosite": []
+  },
+  "apple_music": {
+    "Name": "🎵 Apple Music",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "music.apple.com",
+      "audio-ssl.itunes.apple.com",
+      "aod-ssl.itunes.apple.com"
+    ],
+    "Geosite": []
+  },
+  "vimeo": {
+    "Name": "🎬 Vimeo",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "vimeo.com",
+      "vimeocdn.com"
+    ],
+    "Geosite": []
+  },
+  "dailymotion": {
+    "Name": "🎬 Dailymotion",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "dailymotion.com",
+      "dmcdn.net"
+    ],
+    "Geosite": []
+  },
+  "bandcamp": {
+    "Name": "🎵 Bandcamp",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "bandcamp.com",
+      "bcbits.com"
+    ],
+    "Geosite": []
+  },
+  "signal": {
+    "Name": "💬 Signal",
+    "Category": "💬 Соцсети и мессенджеры",
+    "Processes": [
+      "Signal.exe"
+    ],
+    "Domains": [
+      "signal.org",
+      "whispersystems.org"
+    ],
+    "Geosite": []
+  },
+  "threads": {
+    "Name": "💬 Threads",
+    "Category": "💬 Соцсети и мессенджеры",
+    "Processes": [],
+    "Domains": [
+      "threads.net",
+      "threads.com"
+    ],
+    "Geosite": []
+  },
+  "bluesky": {
+    "Name": "💬 Bluesky",
+    "Category": "💬 Соцсети и мессенджеры",
+    "Processes": [],
+    "Domains": [
+      "bsky.app",
+      "bsky.social",
+      "bsky.network"
+    ],
+    "Geosite": []
+  },
+  "tumblr": {
+    "Name": "💬 Tumblr",
+    "Category": "💬 Соцсети и мессенджеры",
+    "Processes": [],
+    "Domains": [
+      "tumblr.com",
+      "tmblr.co"
+    ],
+    "Geosite": []
+  },
+  "mastodon": {
+    "Name": "💬 Mastodon",
+    "Category": "💬 Соцсети и мессенджеры",
+    "Processes": [],
+    "Domains": [
+      "mastodon.social",
+      "joinmastodon.org"
+    ],
+    "Geosite": []
+  },
+  "viber": {
+    "Name": "💬 Viber",
+    "Category": "💬 Соцсети и мессенджеры",
+    "Processes": [
+      "Viber.exe"
+    ],
+    "Domains": [
+      "viber.com"
+    ],
+    "Geosite": []
+  },
+  "skype": {
+    "Name": "💬 Skype",
+    "Category": "💬 Соцсети и мессенджеры",
+    "Processes": [
+      "Skype.exe"
+    ],
+    "Domains": [
+      "skype.com",
+      "skypeassets.com"
+    ],
+    "Geosite": []
+  },
+  "slack": {
+    "Name": "💬 Slack",
+    "Category": "💬 Соцсети и мессенджеры",
+    "Processes": [
+      "slack.exe"
+    ],
+    "Domains": [
+      "slack.com",
+      "slack-edge.com",
+      "slack-msgs.com"
+    ],
+    "Geosite": []
+  },
+  "teams": {
+    "Name": "💬 Microsoft Teams",
+    "Category": "💬 Соцсети и мессенджеры",
+    "Processes": [
+      "ms-teams.exe",
+      "Teams.exe"
+    ],
+    "Domains": [
+      "teams.microsoft.com",
+      "teams.live.com",
+      "teams.cloud.microsoft"
+    ],
+    "Geosite": []
+  },
+  "zoom": {
+    "Name": "💬 Zoom",
+    "Category": "💬 Соцсети и мессенджеры",
+    "Processes": [
+      "Zoom.exe"
+    ],
+    "Domains": [
+      "zoom.us",
+      "zoom.com"
+    ],
+    "Geosite": []
+  },
+  "mattermost": {
+    "Name": "💬 Mattermost",
+    "Category": "💬 Соцсети и мессенджеры",
+    "Processes": [
+      "Mattermost.exe"
+    ],
+    "Domains": [
+      "mattermost.com"
+    ],
+    "Geosite": []
+  },
+  "element": {
+    "Name": "💬 Element / Matrix",
+    "Category": "💬 Соцсети и мессенджеры",
+    "Processes": [
+      "Element.exe"
+    ],
+    "Domains": [
+      "element.io",
+      "matrix.org"
+    ],
+    "Geosite": []
+  },
+  "claude": {
+    "Name": "🤖 Claude / Anthropic",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "claude.ai",
+      "anthropic.com",
+      "claude.com"
+    ],
+    "Geosite": []
+  },
+  "gemini": {
+    "Name": "🤖 Google Gemini",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "gemini.google.com",
+      "aistudio.google.com",
+      "generativelanguage.googleapis.com",
+      "ai.google.dev"
+    ],
+    "Geosite": []
+  },
+  "copilot": {
+    "Name": "🤖 Microsoft Copilot",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "copilot.microsoft.com",
+      "githubcopilot.com",
+      "copilot.github.com"
+    ],
+    "Geosite": []
+  },
+  "perplexity": {
+    "Name": "🤖 Perplexity",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "perplexity.ai",
+      "pplx.ai"
+    ],
+    "Geosite": []
+  },
+  "grok": {
+    "Name": "🤖 Grok (xAI)",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "grok.com",
+      "x.ai"
+    ],
+    "Geosite": []
+  },
+  "midjourney": {
+    "Name": "🤖 Midjourney",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "midjourney.com"
+    ],
+    "Geosite": []
+  },
+  "suno": {
+    "Name": "🤖 Suno",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "suno.com",
+      "suno.ai"
+    ],
+    "Geosite": []
+  },
+  "elevenlabs": {
+    "Name": "🤖 ElevenLabs",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "elevenlabs.io"
+    ],
+    "Geosite": []
+  },
+  "huggingface": {
+    "Name": "🤖 Hugging Face",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "huggingface.co",
+      "hf.co",
+      "hf.space"
+    ],
+    "Geosite": []
+  },
+  "poe": {
+    "Name": "🤖 Poe",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "poe.com"
+    ],
+    "Geosite": []
+  },
+  "character_ai": {
+    "Name": "🤖 Character.AI",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "character.ai",
+      "characterai.io"
+    ],
+    "Geosite": []
+  },
+  "deepl": {
+    "Name": "🤖 DeepL",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [
+      "DeepL.exe"
+    ],
+    "Domains": [
+      "deepl.com"
+    ],
+    "Geosite": []
+  },
+  "runwayml": {
+    "Name": "🤖 Runway",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "runwayml.com",
+      "runway.com"
+    ],
+    "Geosite": []
+  },
+  "ideogram": {
+    "Name": "🤖 Ideogram",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "ideogram.ai"
+    ],
+    "Geosite": []
+  },
+  "leonardo_ai": {
+    "Name": "🤖 Leonardo.AI",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "leonardo.ai"
+    ],
+    "Geosite": []
+  },
+  "civitai": {
+    "Name": "🤖 Civitai",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "civitai.com"
+    ],
+    "Geosite": []
+  },
+  "mistral": {
+    "Name": "🤖 Mistral / Le Chat",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "mistral.ai",
+      "chat.mistral.ai"
+    ],
+    "Geosite": []
+  },
+  "notebooklm": {
+    "Name": "🤖 NotebookLM",
+    "Category": "🤖 ИИ-сервисы",
+    "Processes": [],
+    "Domains": [
+      "notebooklm.google.com",
+      "notebooklm.google"
+    ],
+    "Geosite": []
+  },
+  "helldivers2": {
+    "Name": "🔫 Helldivers 2",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "helldivers2.exe"
+    ],
+    "Domains": [
+      "arrowheadgamestudios.com"
+    ],
+    "Geosite": []
+  },
+  "gray_zone": {
+    "Name": "🔫 Gray Zone Warfare",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "GrayZoneWarfare.exe",
+      "MadFinger.exe"
+    ],
+    "Domains": [
+      "madfingergames.com",
+      "playgrayzone.com"
+    ],
+    "Geosite": []
+  },
+  "squad": {
+    "Name": "🔫 Squad",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "SquadGame.exe"
+    ],
+    "Domains": [
+      "joinsquad.com"
+    ],
+    "Geosite": []
+  },
+  "hell_let_loose": {
+    "Name": "🔫 Hell Let Loose",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "HLL-Win64-Shipping.exe"
+    ],
+    "Domains": [
+      "hellletloose.com"
+    ],
+    "Geosite": []
+  },
+  "insurgency": {
+    "Name": "🔫 Insurgency: Sandstorm",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "InsurgencyShipping.exe",
+      "Insurgency.exe"
+    ],
+    "Domains": [
+      "newworldinteractive.com"
+    ],
+    "Geosite": []
+  },
+  "planetside2": {
+    "Name": "🔫 PlanetSide 2",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "PlanetSide2_x64.exe"
+    ],
+    "Domains": [
+      "planetside2.com",
+      "daybreakgames.com"
+    ],
+    "Geosite": []
+  },
+  "hunt_showdown": {
+    "Name": "🔫 Hunt: Showdown",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "HuntGame.exe",
+      "HuntShowdown.exe"
+    ],
+    "Domains": [
+      "huntshowdown.com",
+      "crytek.com"
+    ],
+    "Geosite": []
+  },
+  "first_descendant": {
+    "Name": "🔫 The First Descendant",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "M1-Win64-Shipping.exe"
+    ],
+    "Domains": [
+      "thefirstdescendant.com",
+      "nexon.com"
+    ],
+    "Geosite": []
+  },
+  "naraka": {
+    "Name": "🥷 Naraka: Bladepoint",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "NarakaBladepoint.exe"
+    ],
+    "Domains": [
+      "narakathegame.com",
+      "yo-star.com"
+    ],
+    "Geosite": []
+  },
+  "palworld": {
+    "Name": "🦖 Palworld",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "Palworld-Win64-Shipping.exe",
+      "Palworld.exe"
+    ],
+    "Domains": [
+      "pocketpair.jp",
+      "palworldgame.com"
+    ],
+    "Geosite": []
+  },
+  "enshrouded": {
+    "Name": "🗺️ Enshrouded",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "enshrouded.exe"
+    ],
+    "Domains": [
+      "enshrouded.com",
+      "keenswh.com"
+    ],
+    "Geosite": []
+  },
+  "valheim": {
+    "Name": "🪓 Valheim",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "valheim.exe"
+    ],
+    "Domains": [
+      "valheimgame.com",
+      "irongatestudio.se"
+    ],
+    "Geosite": []
+  },
+  "v_rising": {
+    "Name": "🧛 V Rising",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "VRising.exe"
+    ],
+    "Domains": [
+      "playvrising.com",
+      "stunlock.com"
+    ],
+    "Geosite": []
+  },
+  "ark_survival": {
+    "Name": "🦕 ARK: Survival Ascended",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "ArkAscended.exe",
+      "ShooterGame.exe"
+    ],
+    "Domains": [
+      "playark.com",
+      "studiowildcard.com"
+    ],
+    "Geosite": []
+  },
+  "7_days": {
+    "Name": "🧟 7 Days to Die",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "7DaysToDie.exe"
+    ],
+    "Domains": [
+      "7daystodie.com"
+    ],
+    "Geosite": []
+  },
+  "conan_exiles": {
+    "Name": "⚔️ Conan Exiles",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "ConanSandbox.exe"
+    ],
+    "Domains": [
+      "conanexiles.com",
+      "funcom.com"
+    ],
+    "Geosite": []
+  },
+  "minecraft": {
+    "Name": "🧱 Minecraft",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "Minecraft.exe",
+      "MinecraftLauncher.exe",
+      "javaw.exe"
+    ],
+    "Domains": [
+      "minecraft.net",
+      "minecraftservices.com",
+      "mojang.com"
+    ],
+    "Geosite": []
+  },
+  "terraria": {
+    "Name": "🌳 Terraria",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "Terraria.exe"
+    ],
+    "Domains": [
+      "terraria.org"
+    ],
+    "Geosite": []
+  },
+  "black_myth": {
+    "Name": "🐒 Black Myth: Wukong",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "b1-Win64-Shipping.exe"
+    ],
+    "Domains": [
+      "heishenhua.com"
+    ],
+    "Geosite": []
+  },
+  "elden_ring": {
+    "Name": "🗡️ Elden Ring",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "eldenring.exe",
+      "start_protected_game.exe"
+    ],
+    "Domains": [
+      "bandainamcoent.com",
+      "fromsoftware.jp"
+    ],
+    "Geosite": []
+  },
+  "baldurs_gate3": {
+    "Name": "🐉 Baldur's Gate 3",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "bg3.exe",
+      "bg3_dx11.exe"
+    ],
+    "Domains": [
+      "larian.com",
+      "baldursgate3.game"
+    ],
+    "Geosite": []
+  },
+  "cyberpunk": {
+    "Name": "🌆 Cyberpunk 2077",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "Cyberpunk2077.exe"
+    ],
+    "Domains": [
+      "cdprojektred.com",
+      "cyberpunk.net"
+    ],
+    "Geosite": []
+  },
+  "witcher3": {
+    "Name": "🐺 The Witcher 3",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "witcher3.exe"
+    ],
+    "Domains": [
+      "thewitcher.com",
+      "cdprojektred.com"
+    ],
+    "Geosite": []
+  },
+  "red_dead2": {
+    "Name": "🤠 Red Dead Redemption 2",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "RDR2.exe"
+    ],
+    "Domains": [
+      "rockstargames.com"
+    ],
+    "Geosite": []
+  },
+  "lost_ark": {
+    "Name": "🌌 Lost Ark",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "LOSTARK.exe"
+    ],
+    "Domains": [
+      "lostark.game",
+      "playlostark.com",
+      "smilegate.com"
+    ],
+    "Geosite": []
+  },
+  "throne_liberty": {
+    "Name": "👑 Throne and Liberty",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "TL.exe"
+    ],
+    "Domains": [
+      "playthroneandliberty.com",
+      "ncsoft.com"
+    ],
+    "Geosite": []
+  },
+  "new_world": {
+    "Name": "🏝️ New World",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "NewWorld.exe"
+    ],
+    "Domains": [
+      "newworld.com"
+    ],
+    "Geosite": []
+  },
+  "black_desert": {
+    "Name": "⚔️ Black Desert Online",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "BlackDesert64.exe"
+    ],
+    "Domains": [
+      "blackdesertonline.com",
+      "pearlabyss.com"
+    ],
+    "Geosite": []
+  },
+  "ffxiv": {
+    "Name": "⚔️ Final Fantasy XIV",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "ffxiv_dx11.exe",
+      "ffxivboot.exe"
+    ],
+    "Domains": [
+      "finalfantasyxiv.com",
+      "square-enix.com"
+    ],
+    "Geosite": []
+  },
+  "guild_wars2": {
+    "Name": "⚔️ Guild Wars 2",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "Gw2-64.exe"
+    ],
+    "Domains": [
+      "guildwars2.com",
+      "arena.net"
+    ],
+    "Geosite": []
+  },
+  "albion": {
+    "Name": "🌍 Albion Online",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "Albion-Online.exe"
+    ],
+    "Domains": [
+      "albiononline.com"
+    ],
+    "Geosite": []
+  },
+  "eve_online": {
+    "Name": "🚀 EVE Online",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "exefile.exe"
+    ],
+    "Domains": [
+      "eveonline.com",
+      "ccpgames.com"
+    ],
+    "Geosite": []
+  },
+  "diablo4": {
+    "Name": "👹 Diablo IV",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "Diablo IV.exe",
+      "fenris.exe"
+    ],
+    "Domains": [
+      "diablo4.blizzard.com",
+      "blizzard.com"
+    ],
+    "Geosite": []
+  },
+  "poe2": {
+    "Name": "🌌 Path of Exile 2",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "PathOfExile.exe",
+      "PathOfExileSteam.exe",
+      "PathOfExile_x64.exe"
+    ],
+    "Domains": [
+      "pathofexile.com",
+      "pathofexile2.com",
+      "grindinggear.com"
+    ],
+    "Geosite": []
+  },
+  "mobile_legends": {
+    "Name": "⚔️ Mobile Legends",
+    "Category": "⚔️ MOBA и Стратегии",
+    "Processes": [],
+    "Domains": [
+      "mobilelegends.com"
+    ],
+    "Geosite": []
+  },
+  "smite2": {
+    "Name": "⚔️ SMITE 2",
+    "Category": "⚔️ MOBA и Стратегии",
+    "Processes": [
+      "Smite.exe",
+      "Smite2.exe"
+    ],
+    "Domains": [
+      "smitegame.com",
+      "hirezstudios.com"
+    ],
+    "Geosite": []
+  },
+  "age_of_empires": {
+    "Name": "🏰 Age of Empires IV",
+    "Category": "⚔️ MOBA и Стратегии",
+    "Processes": [
+      "RelicCardinal.exe"
+    ],
+    "Domains": [
+      "ageofempires.com"
+    ],
+    "Geosite": []
+  },
+  "starcraft2": {
+    "Name": "🛸 StarCraft II",
+    "Category": "⚔️ MOBA и Стратегии",
+    "Processes": [
+      "SC2_x64.exe",
+      "StarCraft II.exe"
+    ],
+    "Domains": [
+      "starcraft2.com",
+      "blizzard.com"
+    ],
+    "Geosite": []
+  },
+  "company_heroes": {
+    "Name": "🎖️ Company of Heroes 3",
+    "Category": "⚔️ MOBA и Стратегии",
+    "Processes": [
+      "RelicCoH3.exe"
+    ],
+    "Domains": [
+      "companyofheroes.com"
+    ],
+    "Geosite": []
+  },
+  "frostpunk2": {
+    "Name": "❄️ Frostpunk 2",
+    "Category": "⚔️ MOBA и Стратегии",
+    "Processes": [
+      "Frostpunk2-Win64-Shipping.exe"
+    ],
+    "Domains": [
+      "frostpunkgame.com",
+      "11bitstudios.com"
+    ],
+    "Geosite": []
+  },
+  "paradox": {
+    "Name": "🗺️ Paradox (HOI4/EU4/CK3/Stellaris)",
+    "Category": "⚔️ MOBA и Стратегии",
+    "Processes": [
+      "hoi4.exe",
+      "eu4.exe",
+      "ck3.exe",
+      "stellaris.exe",
+      "imperator.exe",
+      "victoria3.exe"
+    ],
+    "Domains": [
+      "paradoxplaza.com",
+      "paradoxinteractive.com"
+    ],
+    "Geosite": []
+  },
+  "reverse1999": {
+    "Name": "✨ Reverse: 1999",
+    "Category": "✨ Аниме и Gacha",
+    "Processes": [
+      "Reverse1999.exe"
+    ],
+    "Domains": [
+      "bluepoch.com"
+    ],
+    "Geosite": []
+  },
+  "blue_archive": {
+    "Name": "✨ Blue Archive",
+    "Category": "✨ Аниме и Gacha",
+    "Processes": [],
+    "Domains": [
+      "nexon.com",
+      "bluearchive.jp"
+    ],
+    "Geosite": []
+  },
+  "nikke": {
+    "Name": "✨ NIKKE",
+    "Category": "✨ Аниме и Gacha",
+    "Processes": [
+      "nikke.exe"
+    ],
+    "Domains": [
+      "nikke-en.com",
+      "shiftup.co.kr"
+    ],
+    "Geosite": []
+  },
+  "azur_lane": {
+    "Name": "✨ Azur Lane",
+    "Category": "✨ Аниме и Gacha",
+    "Processes": [],
+    "Domains": [
+      "azurlane.yo-star.com",
+      "yo-star.com"
+    ],
+    "Geosite": []
+  },
+  "arknights": {
+    "Name": "✨ Arknights",
+    "Category": "✨ Аниме и Gacha",
+    "Processes": [],
+    "Domains": [
+      "arknights.global",
+      "hypergryph.com",
+      "yo-star.com"
+    ],
+    "Geosite": []
+  },
+  "ea_sports_ufc": {
+    "Name": "🥊 EA Sports UFC 5",
+    "Category": "⚽ Спорт и Файтинги",
+    "Processes": [
+      "UFC5.exe"
+    ],
+    "Domains": [
+      "ea.com"
+    ],
+    "Geosite": []
+  },
+  "nba2k": {
+    "Name": "🏀 NBA 2K25",
+    "Category": "⚽ Спорт и Файтинги",
+    "Processes": [
+      "NBA2K25.exe"
+    ],
+    "Domains": [
+      "nba2k.com",
+      "2k.com"
+    ],
+    "Geosite": []
+  },
+  "f1_game": {
+    "Name": "🏎️ F1 24/25",
+    "Category": "⚽ Спорт и Файтинги",
+    "Processes": [
+      "F1_24.exe",
+      "F1_25.exe"
+    ],
+    "Domains": [
+      "formula1game.com",
+      "ea.com"
+    ],
+    "Geosite": []
+  },
+  "mlb_show": {
+    "Name": "⚾ MLB The Show",
+    "Category": "⚽ Спорт и Файтинги",
+    "Processes": [
+      "MLBTheShow.exe"
+    ],
+    "Domains": [
+      "theshow.com"
+    ],
+    "Geosite": []
+  },
+  "lethal_company": {
+    "Name": "👾 Lethal Company",
+    "Category": "🎉 Аркады и Пати",
+    "Processes": [
+      "Lethal Company.exe"
+    ],
+    "Domains": [
+      "store.steampowered.com"
+    ],
+    "Geosite": []
+  },
+  "among_us": {
+    "Name": "👽 Among Us",
+    "Category": "🎉 Аркады и Пати",
+    "Processes": [
+      "Among Us.exe"
+    ],
+    "Domains": [
+      "innersloth.com"
+    ],
+    "Geosite": []
+  },
+  "schedule1": {
+    "Name": "🧪 Schedule I",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "Schedule I.exe",
+      "Schedule1.exe"
+    ],
+    "Domains": [
+      "scheduleonegame.com"
+    ],
+    "Geosite": []
+  },
+  "content_warning": {
+    "Name": "📹 Content Warning",
+    "Category": "🎉 Аркады и Пати",
+    "Processes": [
+      "Content Warning.exe"
+    ],
+    "Domains": [
+      "landfall.se"
+    ],
+    "Geosite": []
+  },
+  "riot_client": {
+    "Name": "🎮 Riot Client",
+    "Category": "🎮 Лаунчеры и Платформы",
+    "Processes": [
+      "RiotClientServices.exe",
+      "RiotClientUx.exe",
+      "RiotClientCrashHandler.exe"
+    ],
+    "Domains": [
+      "riotgames.com",
+      "riotcdn.net"
+    ],
+    "Geosite": []
+  },
+  "xbox_app": {
+    "Name": "🎮 Xbox / Game Pass PC",
+    "Category": "🎮 Лаунчеры и Платформы",
+    "Processes": [
+      "XboxPcApp.exe",
+      "GamingServices.exe",
+      "XboxApp.exe",
+      "gamingservicesui.exe"
+    ],
+    "Domains": [
+      "xbox.com",
+      "xboxlive.com",
+      "gamepass.com"
+    ],
+    "Geosite": []
+  },
+  "amazon_games": {
+    "Name": "🎮 Amazon Games",
+    "Category": "🎮 Лаунчеры и Платформы",
+    "Processes": [
+      "Amazon Games.exe",
+      "Amazon Games UI.exe"
+    ],
+    "Domains": [
+      "gaming.amazon.com",
+      "amazongames.com"
+    ],
+    "Geosite": []
+  },
+  "itchio": {
+    "Name": "🎮 itch.io",
+    "Category": "🎮 Лаунчеры и Платформы",
+    "Processes": [
+      "itch.exe"
+    ],
+    "Domains": [
+      "itch.io",
+      "itch.zone"
+    ],
+    "Geosite": []
+  },
+  "playstation": {
+    "Name": "🎮 PlayStation PC / PSN",
+    "Category": "🎮 Лаунчеры и Платформы",
+    "Processes": [
+      "PlayStationPCLauncher.exe"
+    ],
+    "Domains": [
+      "playstation.com",
+      "sonyentertainmentnetwork.com"
+    ],
+    "Geosite": []
+  },
+  "curseforge": {
+    "Name": "🎮 CurseForge",
+    "Category": "🎮 Лаунчеры и Платформы",
+    "Processes": [
+      "CurseForge.exe"
+    ],
+    "Domains": [
+      "curseforge.com",
+      "forgecdn.net"
     ],
     "Geosite": []
   }
