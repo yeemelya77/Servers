@@ -1,10 +1,7 @@
 {
   "version": "3.0.2",
   "packageType": "archive",
-  "archiveUrl": "https://app.cvetoshka.top/content/releases/3.0.2/PlayNow.Client-3.0.2.zip",
-  "mirrors": [
-    "https://github.com/yeemelya77/Servers/releases/download/3.0.2/PlayNow.Client-3.0.2.zip"
-  ],
+  "archiveUrl": "https://github.com/yeemelya77/Servers/releases/download/3.0.2/PlayNow.Client-3.0.2.zip",
   "sha256": "9A341E052FD3102CB084E596B03EDEDF0BD81FD92961425E3AB4456C8F104248",
   "size": 99346859
 }
