@@ -10,10 +10,11 @@
   "reportTgBotToken": "8046057410:AAHRss_0KKdu6UROBmLxQtxBDObOMCnM-uU",
   "reportTgChatId": "153140633",
   "_verifyApiUrls_comment": "Резервные URL для проверки лицензии. Клиент идёт по списку сверху вниз: если первый сервер недоступен, пробует следующий. Порядок в массиве = приоритет.",
-  "verifyApiUrls": [
-    "https://ru.cvetoshkabotplaynow.ru:8443",
-    "https://origin-subru-tw.cvetoshkabot24.ru"
-  ],
+"verifyApiUrls": [
+  "https://ru-zapret.cvetoshka.top:8443",
+  "https://origin-subru-tw.cvetoshkabot24.ru",
+  "https://ru.cvetoshkabotplaynow.ru:8443"
+],
   "_remoteAccess_comment": "Процессы и домены, которые должны идти напрямую в обход туннеля. Это нужно для оболочек клуба, удалёнки, VNC, MeshCentral и других служебных штук, которые нельзя случайно завернуть в VPN.",
   "_remoteAccessProcesses_comment": "Имена exe-файлов, которые надо пускать напрямую мимо VPN. Пример: MeshAgent.exe.",
   "remoteAccessProcesses": [],
