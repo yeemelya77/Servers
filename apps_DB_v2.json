@@ -988,7 +988,10 @@
       "telesco.pe",
       "graph.org"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "LearnedIps": [
+      "188.166.3.205"
+    ]
   },
   "roblox": {
     "Name": "🧱 Roblox",
