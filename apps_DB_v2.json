@@ -1,9 +1,12 @@
 {
   "fc24": {
-    "Name": "⚽ EA Sports FC 24",
+    "Name": "⚽ EA Sports FC 24-27",
     "Category": "⚽ Спорт и Файтинги",
     "Processes": [
       "FC24.exe",
+      "FC25.exe",
+      "FC26.exe",
+      "FC27.exe",
       "FIFA23.exe",
       "EAAntiCheat.GameService.exe",
       "EAAntiCheat.GameServiceLauncher.exe"
@@ -20,8 +23,7 @@
     "Category": "⚽ Спорт и Файтинги",
     "Processes": [
       "eFootball.exe",
-      "eFootball-Win64-Shipping.exe",
-      "settings.exe"
+      "eFootball-Win64-Shipping.exe"
     ],
     "Domains": [
       "konami.net"
@@ -39,7 +41,8 @@
       "rocketleague.com",
       "psyonix.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 252950
   },
   "tekken8": {
     "Name": "🥊 Tekken 8",
@@ -51,7 +54,8 @@
     "Domains": [
       "bandainamcoent.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1778820
   },
   "mk1": {
     "Name": "🩸 Mortal Kombat 1",
@@ -63,7 +67,8 @@
     "Domains": [
       "wbgames.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1971870
   },
   "sf6": {
     "Name": "🥊 Street Fighter 6",
@@ -74,7 +79,8 @@
     "Domains": [
       "capcom.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1364780
   },
   "dbd": {
     "Name": "💀 Dead by Daylight",
@@ -91,7 +97,8 @@
     ],
     "Geosite": [
       "ea"
-    ]
+    ],
+    "SteamAppId": 381210
   },
   "broken_arrow": {
     "Name": "🛡️ Broken Arrow",
@@ -109,6 +116,7 @@
     "Category": "🔥 Топ Шутеры",
     "Processes": [
       "bf.exe",
+      "bf6.exe",
       "bf2042.exe",
       "bfv.exe",
       "bf1.exe",
@@ -177,7 +185,8 @@
     ],
     "Geosite": [
       "steam"
-    ]
+    ],
+    "SteamAppId": 1422450
   },
   "the_finals": {
     "Name": "🔫 The Finals",
@@ -193,7 +202,8 @@
     ],
     "Geosite": [
       "epicgames"
-    ]
+    ],
+    "SteamAppId": 2073850
   },
   "marvel_rivals": {
     "Name": "🔫 Marvel Rivals",
@@ -207,7 +217,8 @@
       "marvelrivals.com",
       "neteasegames.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 2767030
   },
   "apex": {
     "Name": "🔫 Apex Legends",
@@ -225,7 +236,8 @@
     ],
     "Geosite": [
       "ea"
-    ]
+    ],
+    "SteamAppId": 1172470
   },
   "cs2": {
     "Name": "🔫 Counter-Strike 2",
@@ -238,7 +250,8 @@
     ],
     "Geosite": [
       "steam"
-    ]
+    ],
+    "SteamAppId": 730
   },
   "pubg": {
     "Name": "🔫 PUBG: Battlegrounds",
@@ -260,7 +273,8 @@
       "pubg.com",
       "krafton.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 578080
   },
   "cod": {
     "Name": "🔫 Call of Duty",
@@ -380,7 +394,8 @@
     ],
     "Geosite": [
       "ubisoft"
-    ]
+    ],
+    "SteamAppId": 359550
   },
   "overwatch": {
     "Name": "🔫 Overwatch 2",
@@ -408,7 +423,8 @@
       "bungie.net",
       "destinythegame.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1085660
   },
   "war_thunder": {
     "Name": "🔫 War Thunder",
@@ -420,7 +436,8 @@
       "warthunder.com",
       "gaijin.net"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 236390
   },
   "warface": {
     "Name": "🔫 Warface",
@@ -466,7 +483,8 @@
     "Domains": [
       "facepunch.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 252490
   },
   "once_human": {
     "Name": "💀 Once Human",
@@ -479,7 +497,8 @@
       "oncehuman.game",
       "neteasegames.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 2139460
   },
   "dayz": {
     "Name": "💀 DayZ",
@@ -494,7 +513,8 @@
       "dayz.com",
       "bistudio.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 221100
   },
   "gta5_majestic": {
     "Name": "🚗 GTA V / RP / Majestic",
@@ -526,7 +546,8 @@
     ],
     "Geosite": [
       "rockstar"
-    ]
+    ],
+    "SteamAppId": 271590
   },
   "dota2": {
     "Name": "⚔️ Dota 2",
@@ -539,7 +560,8 @@
     ],
     "Geosite": [
       "steam"
-    ]
+    ],
+    "SteamAppId": 570
   },
   "league": {
     "Name": "⚔️ League of Legends",
@@ -628,7 +650,8 @@
     "Domains": [
       "warframe.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 230410
   },
   "path_of_exile": {
     "Name": "🌌 Path of Exile",
@@ -641,7 +664,8 @@
     "Domains": [
       "pathofexile.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 238960
   },
   "genshin": {
     "Name": "✨ Genshin Impact",
@@ -1361,7 +1385,8 @@
       "UnityCrashHandler64.exe"
     ],
     "Domains": [],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 3241660
   },
   "services_cdn": {
     "Name": "☁️ CDN (domains only)",
@@ -1405,7 +1430,8 @@
       "bohemia.net",
       "bistudio.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1874880
   },
   "disney_plus": {
     "Name": "🎬 Disney+",
@@ -1900,7 +1926,8 @@
     "Domains": [
       "arrowheadgamestudios.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 553850
   },
   "gray_zone": {
     "Name": "🔫 Gray Zone Warfare",
@@ -1924,7 +1951,8 @@
     "Domains": [
       "joinsquad.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 393380
   },
   "hell_let_loose": {
     "Name": "🔫 Hell Let Loose",
@@ -1935,7 +1963,8 @@
     "Domains": [
       "hellletloose.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 686810
   },
   "insurgency": {
     "Name": "🔫 Insurgency: Sandstorm",
@@ -1947,7 +1976,8 @@
     "Domains": [
       "newworldinteractive.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 581320
   },
   "planetside2": {
     "Name": "🔫 PlanetSide 2",
@@ -1972,7 +2002,8 @@
       "huntshowdown.com",
       "crytek.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 594650
   },
   "first_descendant": {
     "Name": "🔫 The First Descendant",
@@ -1996,7 +2027,8 @@
       "narakathegame.com",
       "yo-star.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1203220
   },
   "palworld": {
     "Name": "🦖 Palworld",
@@ -2009,7 +2041,8 @@
       "pocketpair.jp",
       "palworldgame.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1623730
   },
   "enshrouded": {
     "Name": "🗺️ Enshrouded",
@@ -2021,7 +2054,8 @@
       "enshrouded.com",
       "keenswh.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1203620
   },
   "valheim": {
     "Name": "🪓 Valheim",
@@ -2033,7 +2067,8 @@
       "valheimgame.com",
       "irongatestudio.se"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 892970
   },
   "v_rising": {
     "Name": "🧛 V Rising",
@@ -2045,7 +2080,8 @@
       "playvrising.com",
       "stunlock.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1604030
   },
   "ark_survival": {
     "Name": "🦕 ARK: Survival Ascended",
@@ -2069,7 +2105,8 @@
     "Domains": [
       "7daystodie.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 251570
   },
   "conan_exiles": {
     "Name": "⚔️ Conan Exiles",
@@ -2081,7 +2118,8 @@
       "conanexiles.com",
       "funcom.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 440900
   },
   "minecraft": {
     "Name": "🧱 Minecraft",
@@ -2107,7 +2145,8 @@
     "Domains": [
       "terraria.org"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 105600
   },
   "black_myth": {
     "Name": "🐒 Black Myth: Wukong",
@@ -2118,7 +2157,8 @@
     "Domains": [
       "heishenhua.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 2358720
   },
   "elden_ring": {
     "Name": "🗡️ Elden Ring",
@@ -2131,7 +2171,8 @@
       "bandainamcoent.com",
       "fromsoftware.jp"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1245620
   },
   "baldurs_gate3": {
     "Name": "🐉 Baldur's Gate 3",
@@ -2144,7 +2185,8 @@
       "larian.com",
       "baldursgate3.game"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1086940
   },
   "cyberpunk": {
     "Name": "🌆 Cyberpunk 2077",
@@ -2156,7 +2198,8 @@
       "cdprojektred.com",
       "cyberpunk.net"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1091500
   },
   "witcher3": {
     "Name": "🐺 The Witcher 3",
@@ -2168,7 +2211,8 @@
       "thewitcher.com",
       "cdprojektred.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 292030
   },
   "red_dead2": {
     "Name": "🤠 Red Dead Redemption 2",
@@ -2179,7 +2223,8 @@
     "Domains": [
       "rockstargames.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1174180
   },
   "lost_ark": {
     "Name": "🌌 Lost Ark",
@@ -2192,7 +2237,8 @@
       "playlostark.com",
       "smilegate.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1599340
   },
   "throne_liberty": {
     "Name": "👑 Throne and Liberty",
@@ -2204,7 +2250,8 @@
       "playthroneandliberty.com",
       "ncsoft.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 2429640
   },
   "new_world": {
     "Name": "🏝️ New World",
@@ -2215,7 +2262,8 @@
     "Domains": [
       "newworld.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1063730
   },
   "black_desert": {
     "Name": "⚔️ Black Desert Online",
@@ -2227,7 +2275,8 @@
       "blackdesertonline.com",
       "pearlabyss.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 582660
   },
   "ffxiv": {
     "Name": "⚔️ Final Fantasy XIV",
@@ -2240,7 +2289,8 @@
       "finalfantasyxiv.com",
       "square-enix.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 39210
   },
   "guild_wars2": {
     "Name": "⚔️ Guild Wars 2",
@@ -2275,7 +2325,8 @@
       "eveonline.com",
       "ccpgames.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 8500
   },
   "diablo4": {
     "Name": "👹 Diablo IV",
@@ -2288,7 +2339,8 @@
       "diablo4.blizzard.com",
       "blizzard.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 2344520
   },
   "poe2": {
     "Name": "🌌 Path of Exile 2",
@@ -2303,7 +2355,8 @@
       "pathofexile2.com",
       "grindinggear.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 2694490
   },
   "mobile_legends": {
     "Name": "⚔️ Mobile Legends",
@@ -2360,7 +2413,8 @@
     "Domains": [
       "companyofheroes.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1677280
   },
   "frostpunk2": {
     "Name": "❄️ Frostpunk 2",
@@ -2372,7 +2426,8 @@
       "frostpunkgame.com",
       "11bitstudios.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1601580
   },
   "paradox": {
     "Name": "🗺️ Paradox (HOI4/EU4/CK3/Stellaris)",
@@ -2389,7 +2444,8 @@
       "paradoxplaza.com",
       "paradoxinteractive.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 394360
   },
   "reverse1999": {
     "Name": "✨ Reverse: 1999",
@@ -2457,10 +2513,12 @@
     "Geosite": []
   },
   "nba2k": {
-    "Name": "🏀 NBA 2K25",
+    "Name": "🏀 NBA 2K25-27",
     "Category": "⚽ Спорт и Файтинги",
     "Processes": [
-      "NBA2K25.exe"
+      "NBA2K25.exe",
+      "NBA2K26.exe",
+      "NBA2K27.exe"
     ],
     "Domains": [
       "nba2k.com",
@@ -2469,7 +2527,7 @@
     "Geosite": []
   },
   "f1_game": {
-    "Name": "🏎️ F1 24/25",
+    "Name": "🏎️ F1 24 / F1 25",
     "Category": "⚽ Спорт и Файтинги",
     "Processes": [
       "F1_24.exe",
@@ -2501,7 +2559,8 @@
     "Domains": [
       "store.steampowered.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 1966720
   },
   "among_us": {
     "Name": "👽 Among Us",
@@ -2512,7 +2571,8 @@
     "Domains": [
       "innersloth.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 945360
   },
   "schedule1": {
     "Name": "🧪 Schedule I",
@@ -2524,7 +2584,8 @@
     "Domains": [
       "scheduleonegame.com"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 3164500
   },
   "content_warning": {
     "Name": "📹 Content Warning",
@@ -2535,7 +2596,8 @@
     "Domains": [
       "landfall.se"
     ],
-    "Geosite": []
+    "Geosite": [],
+    "SteamAppId": 2881650
   },
   "riot_client": {
     "Name": "🎮 Riot Client",
