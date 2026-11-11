@@ -758,7 +758,7 @@
     "Geosite": []
   },
   "steam": {
-    "Name": "🎮 Steam (Full)",
+    "Name": "🎮 Steam (полностью)",
     "Category": "🎮 Лаунчеры и Платформы",
     "Processes": [
       "steam.exe",
@@ -1036,7 +1036,7 @@
     ]
   },
   "google": {
-    "Name": "Google Services (only Google domains)",
+    "Name": "Google (сайты и сервисы)",
     "Category": "Сервисы в любом браузере",
     "Processes": [],
     "Domains": [
@@ -1056,7 +1056,7 @@
     ]
   },
   "youtube": {
-    "Name": "YouTube (only YouTube domains)",
+    "Name": "YouTube",
     "Category": "Сервисы в любом браузере",
     "Processes": [],
     "Domains": [
@@ -1103,7 +1103,7 @@
   },
   "vk": {
     "Name": "🟦 VK / VK Video",
-    "Category": "🌐 Браузеры",
+    "Category": "💬 Соцсети и мессенджеры",
     "Processes": [],
     "Domains": [
       "vk.com",
@@ -1389,14 +1389,14 @@
     "SteamAppId": 3241660
   },
   "services_cdn": {
-    "Name": "☁️ CDN (domains only)",
+    "Name": "☁️ CDN (только домены)",
     "Category": "🌐 Браузеры",
     "Processes": [],
     "Domains": [],
     "Geosite": []
   },
   "hosters_hodca": {
-    "Name": "☁️ Hosters / CDN (domains only)",
+    "Name": "☁️ Хостеры и CDN (только домены)",
     "Category": "🌐 Браузеры",
     "Processes": [],
     "Domains": [],
@@ -2675,6 +2675,346 @@
     "Domains": [
       "curseforge.com",
       "forgecdn.net"
+    ],
+    "Geosite": []
+  },
+  "marathon": {
+    "Name": "🔫 Marathon",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "Marathon.exe",
+      "Marathon-Win64-Shipping.exe"
+    ],
+    "Domains": [
+      "marathonthegame.com",
+      "bungie.net"
+    ],
+    "Geosite": [],
+    "SteamAppId": 3065800
+  },
+  "monster_hunter_wilds": {
+    "Name": "🐉 Monster Hunter Wilds",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "MonsterHunterWilds.exe"
+    ],
+    "Domains": [
+      "monsterhunter.com"
+    ],
+    "Geosite": [],
+    "SteamAppId": 2246340
+  },
+  "nightreign": {
+    "Name": "🗡️ Elden Ring Nightreign",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "nightreign.exe",
+      "start_protected_game.exe"
+    ],
+    "Domains": [
+      "bandainamcoent.com"
+    ],
+    "Geosite": [],
+    "SteamAppId": 2622380
+  },
+  "borderlands4": {
+    "Name": "🔫 Borderlands 4",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "Borderlands4.exe",
+      "Borderlands4-Win64-Shipping.exe"
+    ],
+    "Domains": [
+      "borderlands.com",
+      "shift.gearboxsoftware.com"
+    ],
+    "Geosite": [],
+    "SteamAppId": 1285190
+  },
+  "space_marine2": {
+    "Name": "🛡️ Warhammer 40,000: Space Marine 2",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "Warhammer 40000 Space Marine 2.exe",
+      "Warhammer 40000 Space Marine 2 - Retail.exe"
+    ],
+    "Domains": [
+      "focus-entmt.com"
+    ],
+    "Geosite": [],
+    "SteamAppId": 2183900
+  },
+  "splitgate2": {
+    "Name": "🔫 Splitgate 2",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "PortalWars2-Win64-Shipping.exe",
+      "Splitgate2.exe"
+    ],
+    "Domains": [
+      "splitgate.com",
+      "1047games.com"
+    ],
+    "Geosite": [],
+    "SteamAppId": 2903220
+  },
+  "rematch": {
+    "Name": "⚽ Rematch",
+    "Category": "⚽ Спорт и Файтинги",
+    "Processes": [
+      "RematchClient-Win64-Shipping.exe",
+      "Rematch.exe"
+    ],
+    "Domains": [
+      "playrematch.com",
+      "sloclap.com"
+    ],
+    "Geosite": [],
+    "SteamAppId": 2138720
+  },
+  "dune_awakening": {
+    "Name": "🏜️ Dune: Awakening",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "DuneSandbox-Win64-Shipping.exe",
+      "DuneSandbox.exe",
+      "FuncomLauncher.exe"
+    ],
+    "Domains": [
+      "duneawakening.com",
+      "funcom.com"
+    ],
+    "Geosite": [],
+    "SteamAppId": 1172710
+  },
+  "where_winds_meet": {
+    "Name": "🗡️ Where Winds Meet",
+    "Category": "🌌 RPG и MMO",
+    "Processes": [
+      "wwm.exe",
+      "WhereWindsMeet.exe",
+      "wwm_launcher.exe"
+    ],
+    "Domains": [
+      "wherewindsmeetgame.com"
+    ],
+    "Geosite": [],
+    "SteamAppId": 3564740
+  },
+  "mecha_break": {
+    "Name": "🤖 Mecha BREAK",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "MechaBREAK.exe",
+      "Mecha BREAK.exe"
+    ],
+    "Domains": [
+      "mechabreak.com"
+    ],
+    "Geosite": [],
+    "SteamAppId": 2452280
+  },
+  "strinova": {
+    "Name": "✨ Strinova",
+    "Category": "🔥 Топ Шутеры",
+    "Processes": [
+      "Strinova.exe",
+      "Strinova-Win64-Shipping.exe"
+    ],
+    "Domains": [
+      "strinova.com"
+    ],
+    "Geosite": [],
+    "SteamAppId": 1282270
+  },
+  "peak": {
+    "Name": "🧗 PEAK",
+    "Category": "🎉 Аркады и Пати",
+    "Processes": [
+      "PEAK.exe"
+    ],
+    "Domains": [],
+    "Geosite": [],
+    "SteamAppId": 3527290
+  },
+  "phasmophobia": {
+    "Name": "👻 Phasmophobia",
+    "Category": "🎉 Аркады и Пати",
+    "Processes": [
+      "Phasmophobia.exe"
+    ],
+    "Domains": [
+      "kineticgames.co.uk"
+    ],
+    "Geosite": [],
+    "SteamAppId": 739630
+  },
+  "sea_of_thieves": {
+    "Name": "🏴‍☠️ Sea of Thieves",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "SoTGame.exe"
+    ],
+    "Domains": [
+      "seaofthieves.com"
+    ],
+    "Geosite": [],
+    "SteamAppId": 1172620
+  },
+  "sons_of_the_forest": {
+    "Name": "🌲 Sons of the Forest",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "SonsOfTheForest.exe"
+    ],
+    "Domains": [
+      "endnightgames.com"
+    ],
+    "Geosite": [],
+    "SteamAppId": 1326470
+  },
+  "ets2": {
+    "Name": "🚛 Euro Truck Simulator 2 / TruckersMP",
+    "Category": "⚽ Спорт и Файтинги",
+    "Processes": [
+      "eurotrucks2.exe",
+      "TruckersMP-Launcher.exe"
+    ],
+    "Domains": [
+      "truckersmp.com",
+      "scssoft.com"
+    ],
+    "Geosite": [],
+    "SteamAppId": 227300
+  },
+  "hytale": {
+    "Name": "🧱 Hytale",
+    "Category": "💣 Новинки и Выживание",
+    "Processes": [
+      "HytaleClient.exe",
+      "Hytale.exe",
+      "HytaleLauncher.exe"
+    ],
+    "Domains": [
+      "hytale.com"
+    ],
+    "Geosite": []
+  },
+  "geforce_now": {
+    "Name": "🎮 GeForce NOW",
+    "Category": "🎮 Лаунчеры и Платформы",
+    "Processes": [
+      "GeForceNOW.exe",
+      "GeForceNOWStreamer.exe"
+    ],
+    "Domains": [
+      "play.geforcenow.com",
+      "geforcenow.com",
+      "nvidiagrid.net",
+      "nvidia.com"
+    ],
+    "Geosite": []
+  },
+  "kick": {
+    "Name": "📺 Kick",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "kick.com",
+      "kick.cloud"
+    ],
+    "Geosite": []
+  },
+  "patreon": {
+    "Name": "🎨 Patreon",
+    "Category": "🎬 Стриминг и медиа",
+    "Processes": [],
+    "Domains": [
+      "patreon.com",
+      "patreonusercontent.com"
+    ],
+    "Geosite": []
+  },
+  "medium": {
+    "Name": "📰 Medium",
+    "Category": "💬 Соцсети и мессенджеры",
+    "Processes": [],
+    "Domains": [
+      "medium.com"
+    ],
+    "Geosite": []
+  },
+  "notion": {
+    "Name": "📝 Notion",
+    "Category": "🛠️ Работа и разработка",
+    "Processes": [
+      "Notion.exe"
+    ],
+    "Domains": [
+      "notion.so",
+      "notion.com",
+      "notion.site"
+    ],
+    "Geosite": []
+  },
+  "figma": {
+    "Name": "🎨 Figma",
+    "Category": "🛠️ Работа и разработка",
+    "Processes": [
+      "Figma.exe",
+      "figma_agent.exe"
+    ],
+    "Domains": [
+      "figma.com"
+    ],
+    "Geosite": []
+  },
+  "canva": {
+    "Name": "🎨 Canva",
+    "Category": "🛠️ Работа и разработка",
+    "Processes": [
+      "Canva.exe"
+    ],
+    "Domains": [
+      "canva.com"
+    ],
+    "Geosite": []
+  },
+  "cursor": {
+    "Name": "🤖 Cursor",
+    "Category": "🛠️ Работа и разработка",
+    "Processes": [
+      "Cursor.exe"
+    ],
+    "Domains": [
+      "cursor.com",
+      "cursor.sh",
+      "cursorapi.com"
+    ],
+    "Geosite": []
+  },
+  "jetbrains": {
+    "Name": "🛠️ JetBrains (IDE, плагины, AI)",
+    "Category": "🛠️ Работа и разработка",
+    "Processes": [],
+    "Domains": [
+      "jetbrains.com",
+      "plugins.jetbrains.com",
+      "jetbrains.ai"
+    ],
+    "Geosite": []
+  },
+  "proton": {
+    "Name": "🔐 Proton Mail / Drive",
+    "Category": "💬 Соцсети и мессенджеры",
+    "Processes": [
+      "ProtonMail.exe",
+      "Proton Mail.exe",
+      "ProtonDrive.exe"
+    ],
+    "Domains": [
+      "proton.me",
+      "protonmail.com"
     ],
     "Geosite": []
   }

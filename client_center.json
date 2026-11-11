@@ -1,15 +1,7 @@
 {
   "hero_title": "Центр PlayNow",
   "hero_text": " Ты долистал почти до конца :)",
-  "banners": [
-    {
-      "badge": "ПРОМО",
-      "title": "Нужен такой же клиент на другой ПК?",
-      "text": "Пиши в Telegram",
-      "accent": "#00C26F",
-      "cta": "Telegram: @PlayNowSupport"
-    }
-  ],
+  "banners": [],
   "updates": [
     {
       "badge": "NEW",
